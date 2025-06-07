@@ -1,0 +1,362 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-rendering: optimizeLegibility;
+    transition: 0.3s;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;  
+    color: inherit;           
+}
+
+@font-face {
+    font-family: "lineage_font";
+    src: url(../fonts/lineage_font.ttf);
+}
+@font-face {
+    font-family: "roboto_regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+/*-------------------------------------------------------------------------- Genral */
+.letra_chica{
+    font-size: 0.75rem ;
+}
+.gris{
+    background-color: rgb(133, 134, 134);
+    padding: 3px;
+    border-radius: 5px;
+}
+
+
+/*-------------------------------------------------------------------------- Menu cabecera */
+ul, ol {
+    list-style-type: none; 
+}
+.nav  li  a{
+    background-color: aliceblue;
+    padding: 10px 15px 10px 15px;
+    display: block;
+    height: 100%;
+}
+.nav > li{
+    float: left;
+    position: relative;
+}   
+.nav li a:hover{
+    background-color: rgb(156, 163, 170);
+}
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 140px;
+    text-align: center;
+}
+.play{
+    border-radius: 0px 10px 10px 0px; 
+    background-color: orangered !important;
+}
+.quest{
+    border-radius: 10px 0px 0px 10px;
+}
+.play:hover{
+    background-color: rgb(250, 105, 52)!important; 
+    color: white;
+    box-shadow: 0 0 10px 0 rgba(247, 202, 120, 0.6);
+}
+.nav li:hover > .quest{
+    border-radius: 10px 0px 0px 00;
+}
+.nav ul{
+    border-radius: 11px;
+}
+.nav li:hover > ul{
+    display: block;
+
+}
+.nav{
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+}
+.menu_cabecera{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*-------------------------------------------------------------------------- para el footer  */
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.index_paraelfooter{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr 1fr auto;
+}
+.inconos{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.tamanio_icono{
+    font-size: 25px;
+}
+
+/*-------------------------------------------------------------------------- Menu razas */
+.test{
+    margin: 0;
+}
+.menu_razas{
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+.opciones_razas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;
+}
+.opciones_razas img{
+    width: 32px;
+    height: 32px;
+    box-shadow: 3px 3px 10px 0 rgba(0, 0, 0, 0.6);
+    margin-bottom: 6px;
+}
+
+/* -------------------------------------------------------------------------- background */
+body{
+    background-image: url(../img/background_index.webp);
+    background-size: cover;
+    background-position: top center;
+    background-repeat: round;
+    background-attachment: fixed;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    border-radius: .25rem !important;
+}
+
+main{
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    width: 70%;
+    margin: auto;
+    border-radius: 5px;
+    padding: 1rem;
+    
+}
+.bloque_centrado{
+    display: flex;
+    justify-content: center;
+}
+
+.contenido{
+    margin: 30px 10% 30px 10% ;
+    
+}
+
+.contenido_comunidad{
+    margin-top: 5%;
+}
+
+.contenido_comunidad_videos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: end;
+    gap: 3px;
+}
+.contenido_comunidad_videos iframe{
+    width: 100%;
+    height: 160px;
+}
+
+/* -------------------------------------------------------------------------- Tabla skilles */
+table{
+    border-radius: 3px;
+}
+thead{
+    background-color: rgb(188, 231, 215);
+}
+
+th{
+    padding: 3px 3px;
+}
+
+td{
+    /* padding: 3px; */
+    border-bottom: solid 1px rgb(134, 134, 134);
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.6);
+}
+.tabla_titulo{
+    width: 80%;
+    text-align: start;
+    margin-bottom: 10px;
+    border: solid 1px rgb(78, 78, 78);
+}
+
+.titulo_tabla{
+    align-items: center;
+    gap: 5px;
+    height: 30px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none; 
+    -moz-user-select: none;    
+    -ms-user-select: none;  
+}
+.titulo_tabla h2{
+    text-align: left;
+    padding-left: 5px;
+}
+
+.texto_skill{
+    padding-left: 7px;
+}
+
+.tamaño_td{
+    width: 5%; 
+    text-align: center; 
+    vertical-align: middle;
+}
+
+.centrado_titulo{
+    text-align: center; 
+    vertical-align: middle;
+}
+
+/* -------------------------------------------------------------------------- tooltip */
+
+.tooltip{
+    font-weight: bold;
+    position: relative;
+    color: rgb(49, 49, 218);
+
+}
+.tooltip:hover{
+    text-decoration: underline;
+}
+.tooltip:hover .tooltip-box{
+    display: inline-block;
+}
+.tooltip-box{
+    position: absolute;
+    background: black;
+    width: fit-content;
+    z-index: 500;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 5px;    
+    left: 0;
+    right: 0;
+    bottom: 30px;
+    display: none;
+}
+.tooltip-box img{
+    box-shadow: 0 0 10px 0 rgba(252, 252, 252, 0.6);
+}
+.tooltip-box::after{
+    content: "";
+    display: block;
+    border-top: 10px solid #000;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    bottom: -10px;
+    left: calc(25% - 7px);
+}
+
+
+/* -------------------------------------------------------------------------- mostrar / ocultar tabla */
+
+.transicion {
+    max-height: 2000px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.esconder {
+    max-height: 0;
+}
+.rotado{
+    transform: rotate(180deg);
+}
+
+/* -------------------------------------------------------------------------- skills */
+.contenido_y_video{
+    display: flex;
+    padding: 3px;
+    background-color: rgb(198, 201, 204);
+    border-radius: 5px;
+}
+td p{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+td img{
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.td1{
+    width: 20%;
+}
+.td2{
+    width: 80%;
+}
+
+.padding_tabla  table tbody tr td{
+    padding: 0.25rem 0.25rem;
+}
+
+/* -------------------------------------------------------------------------- Quests */
+.tamaño_tabla{
+    width: 80%;
+    text-align: center;
+}
+.tr_color{
+    background-color: antiquewhite;
+}
+.padding5{
+    padding: 5px;
+}
+
+/* -------------------------------------------------------------------------- Clases */
+.titulo_img{
+    display: flex;
+    align-items: center;
+}
+
+.img_presemtacion{
+    width: 4rem;
+    height: 4rem;
+}
+
+.contenido_comunidad h1{
+    font-size: 5rem;
+    font-family: "lineage_font";
+    padding-left: 10px;
+}
+p{
+    font-family: "roboto_regular";
+    
+}
+
+.margin_10{
+    margin: 10px;
+}

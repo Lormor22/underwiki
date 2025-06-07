@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="../../js/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/css.css">
+    <title>Gladiator</title>
+</head>
+<body>
+        <header class="menu_cabecera" >
+        <a href="../../index.html"><img class="logo_ug" src="../../img/ug1.webp" alt="logo UG"></a>
+        <ul class="nav">
+            <li>
+                <a class="quest" href="../../pages/quests/class_quest.html">Quests</a>
+                <ul>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="">Items</a>
+                <ul>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                    <li><a href=""><img src="../../img/etc/iconos_web/work.webp" alt="">Inc</a></li>
+                </ul>
+            </li>
+            <li>
+                <a class="play" href="https://undergames.net/lindvior10/">Play</a>
+            </li>
+        </ul>
+    </header>
+    <div class="bloque_centrado" >
+        <div class="menu_razas" >
+            <div class="opciones_razas" id="human">
+                <img  src="../../img/etc/iconos_web/skill1902_human.webp" alt="Human">
+                <p class="test">Human</p>
+            </div>
+            <div class="opciones_razas" id="elf">
+                <img  src="../../img/etc/iconos_web/skill1906_elf.webp" alt="Elf">
+                <p class="test">Elf</p>
+            </div>
+            <div class="opciones_razas" id="dark_elf">
+                <img  src="../../img/etc/iconos_web/skill1913_d_elf.webp" alt="Dark Elf">
+                <p class="test">Dark Elf</p>
+            </div>
+            <div class="opciones_razas" id="orc">
+                <img  src="../../img/etc/iconos_web/skill1917_orc.webp" alt="Orc">
+                <p class="test">Orc</p>
+            </div>
+            <div class="opciones_razas" id="dwarf">
+                <img  src="../../img/etc/iconos_web/skill1920_dward.webp" alt="Dwarf">
+                <p class="test">Dwarf</p>
+            </div>
+            <div class="opciones_razas" id="kamael">
+                <img  src="../../img/etc/iconos_web/skill1924_kamael.webp" alt="Kamael">
+                <p class="test">Kamael</p>
+            </div>
+        </div>
+    </div>
+    <div class="bloque_centrado">
+        <div id="menu_razas_parte2">
+            <!-- Acá aparecen cosas por JS -->
+        </div>
+    </div>
+
+    <main class="contenido_comunidad">
+        <div class="titulo_img">
+            <img class="img_presemtacion" src="../../img/general/skill0312_Vicious_Stance.webp" alt="">
+            <h1>Vicious Stance</h1>
+        </div>
+        <hr style="border: none; height: 2px; background-color: black; margin-top: 10px; margin-bottom: 15px;">
+        <p> <b>Clases:</b> <a style="color: blue;" href="../clases/gladiator.html">Gladiator</a>, <a style="color: blue;" href="">Warlord</a>, <a style="color: blue;" href="">Treasure Hunter</a>,  
+            <a style="color: blue;" href="">Hawkeye</a>, <a style="color: blue;" href="">Plains Walker</a>, <a style="color: blue;" href="">Silver Ranger</a>, 
+            <a style="color: blue;" href="">Abyss Walker</a>, <a style="color: blue;" href="">Phantom Ranger</a>, <a style="color: blue;" href="">Destroyer</a>.
+        </p>
+        <p class="margin_10">Increases critical damage based on the skill's level. Continuously consumes MP proportional to the user's level.</p>
+            <br>
+            
+            <table border="1" class="tabla_titulo">
+                <thead id="tabla_lv_40">
+                    <tr >
+                        <th class="titulo_tabla" colspan="2" onclick="ShowHide('skill_info')">
+                                <h2>Skill Info</h2>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td >
+                            <div id="skill_info" class="transicion esconder padding_tabla">
+                                <table border="1" style="width: 100%;">
+                                    <tbody >
+                                        <tr>
+                                            <td class="td1">skill name</td>
+                                            <td class="td2">s_vicious_stance1</td>
+                                        </tr>
+                                        
+                                        <tr>
+                                            <td class="td1">skill id</td>
+                                            <td class="td2">312</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1">operate type</td>
+                                            <td class="td2">T</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> no enchant max magic level</td>
+                                            <td class="td2">74</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1">effect/td>
+                                            <td class="td2">{c_mp_by_level;-0.8;5};{p_critical_damage;{all};609;diff}</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> target type </td>
+                                            <td class="td2">none</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> next actione </td>
+                                            <td class="td2">none</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> ride state </td>
+                                            <td class="td2">@ride_none</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> olympiad use </td>
+                                            <td class="td2">1</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> no enchant max mp consume1 </td>
+                                            <td class="td2">14</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> abnormal visual effect </td>
+                                            <td class="td2">ave_none</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td class="td1"> icon </td>
+                                            <td class="td2"><img src="../../img/general/skill0312_Vicious_Stance.webp" alt="skill0312"> skill0312</td>
+                                        </tr>
+
+
+
+
+
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1" class="tabla_titulo">
+                <thead id="tabla_lv_40">
+                    <tr >
+                        <th class="titulo_tabla" colspan="5" onclick="ShowHide('skill_lvl')">
+                                <h2>Skills Levels</h2>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5">
+                            <div id="skill_lvl" class="transicion esconder">
+                                <table border="1">
+                                    <tbody >
+                                            <tr>
+                                                <td>
+                                                    
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>Description</p>
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>Magic Lvl</p>
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>MP Initial Consume</p>                                            </td>
+                                                <td class="centrado_titulo">
+                                                    <p>Crit. Atk Add</p>
+                                                </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td>
+                                                    <img src="../../img/noimage.png" alt="">
+                                                    </td>
+                                                    <td class="texto_skill">
+                                                        <a href="../skills/skill1.html">
+                                                            <h4>Skill Name 2.</h4>
+                                                        </a>
+                                                        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro natus magni dignissimos quisquam assumenda iure laborum atque temporibus quos quaerat cum, 
+                                                        consequuntur.</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>33000</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>Toggle</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>No</p>
+                                                    </td>
+                                                </tr>
+                                                
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1" class="tabla_titulo">
+                <thead id="tabla_lv_40">
+                    <tr >
+                        <th class="titulo_tabla" colspan="5" onclick="ShowHide('skill_enchant')">
+                                <h2>Skill enchant - Cost</h2>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5">
+                            <div id="skill_enchant" class="transicion esconder">
+                                <table border="1">
+                                    <tbody >
+                                            <tr>
+                                                <td>
+                                                    
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>Name</p>
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>SP</p>
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>Active</p>                                            </td>
+                                                    <td class="centrado_titulo">
+                                                        <p>Magic</p>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td>
+                                                    <a href="../skills/skill1.html">
+                                                    <img src="../../img/noimage.png" alt="">
+                                                    </a>
+                                                    </td>
+                                                    <td class="texto_skill">
+                                                        <a href="../skills/skill1.html">
+                                                            <h4>Skill Name 2.</h4>
+                                                        </a>
+                                                        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro natus magni dignissimos quisquam assumenda iure laborum atque temporibus quos quaerat cum, 
+                                                        consequuntur.</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>33000</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>Toggle</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>No</p>
+                                                    </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <td>
+                                                    <a href="../../index.html">
+                                                    <img src="../../img/noimage.png" alt="">
+                                                    </a>
+                                                    </td>
+                                                    <td class="texto_skill">
+                                                        <a href="../../index.html">
+                                                            <h4>Skill Name 3.</h4>
+                                                        </a>
+                                                        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro natus magni dignissimos quisquam assumenda iure laborum atque temporibus quos quaerat cum, 
+                                                        consequuntur.</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>33000</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>Toggle</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>No</p>
+                                                    </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <td>
+                                                    <a href="../../index.html">
+                                                    <img src="../../img/noimage.png" alt="">
+                                                    </a>
+                                                    </td>
+                                                    <td class="texto_skill">
+                                                        <a href="../../index.html">
+                                                            <h4>Skill Name 4.</h4>
+                                                        </a>
+                                                        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro natus magni dignissimos quisquam assumenda iure laborum atque temporibus quos quaerat cum, 
+                                                        consequuntur.</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>33000</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>Toggle</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>No</p>
+                                                    </td>
+                                                </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="1" class="tabla_titulo">
+                <thead id="tabla_lv_40">
+                    <tr >
+                        <th class="titulo_tabla" colspan="5" onclick="ShowHide('skill_enchant_chance')">
+                                <h2>Skill enchant - Chance</h2>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="5">
+                            <div id="skill_enchant_chance" class="transicion esconder">
+                                <table border="1">
+                                    <tbody >
+                                            <tr>
+                                                <td>
+                                                    
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>Name</p>
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>SP</p>
+                                                </td>
+                                                <td class="centrado_titulo">
+                                                    <p>Active</p>                                            </td>
+                                                    <td class="centrado_titulo">
+                                                        <p>Magic</p>
+                                                    </td>
+                                                </tr>
+                                                
+                                                <tr>
+                                                    <td>
+                                                    <a href="../skills/skill1.html">
+                                                    <img src="../../img/noimage.png" alt="">
+                                                    </a>
+                                                    </td>
+                                                    <td class="texto_skill">
+                                                        <a href="../skills/skill1.html">
+                                                            <h4>Skill Name 2.</h4>
+                                                        </a>
+                                                        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro natus magni dignissimos quisquam assumenda iure laborum atque temporibus quos quaerat cum, 
+                                                        consequuntur.</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>33000</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>Toggle</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>No</p>
+                                                    </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <td>
+                                                    <a href="../../index.html">
+                                                    <img src="../../img/noimage.png" alt="">
+                                                    </a>
+                                                    </td>
+                                                    <td class="texto_skill">
+                                                        <a href="../../index.html">
+                                                            <h4>Skill Name 3.</h4>
+                                                        </a>
+                                                        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro natus magni dignissimos quisquam assumenda iure laborum atque temporibus quos quaerat cum, 
+                                                        consequuntur.</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>33000</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>Toggle</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>No</p>
+                                                    </td>
+                                                </tr>
+                        
+                                                <tr>
+                                                    <td>
+                                                    <a href="../../index.html">
+                                                    <img src="../../img/noimage.png" alt="">
+                                                    </a>
+                                                    </td>
+                                                    <td class="texto_skill">
+                                                        <a href="../../index.html">
+                                                            <h4>Skill Name 4.</h4>
+                                                        </a>
+                                                        <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro natus magni dignissimos quisquam assumenda iure laborum atque temporibus quos quaerat cum, 
+                                                        consequuntur.</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>33000</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>Toggle</p>
+                                                    </td>
+                                                    <td class="tamaño_td">
+                                                        <p>No</p>
+                                                    </td>
+                                                </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+
+            
+    </main>
+
+    <script src="../menu_interactivo.js"></script>
+</body>
+</html>
