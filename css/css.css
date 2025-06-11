@@ -38,7 +38,6 @@ a {
     font-optical-sizing: auto;
 }
 
-
 /*-------------------------------------------------------------------------- Menu cabecera */
 header{
     background-color: rgb(15, 15, 15);
@@ -76,7 +75,7 @@ ul, ol {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    gap: 8px; /* espacio entre imagen y texto */
+    gap: 8px; 
     padding: 8px 12px;
 }
 .nav li ul li a:hover{
@@ -133,13 +132,15 @@ footer{
     background-color: black;
     color: white;
     padding: 1rem 2rem;
+    min-height: fit-content;
     text-align: center;
     flex-wrap: wrap;
 }
 .index_paraelfooter{
-    min-height: 100vh;
     display: grid;
-    grid-template-rows: auto 1fr 1fr auto;
+    min-height: 100dvh;
+    grid-template-rows: 
+    auto 1fr auto;
 }
 .inconos{
     display: flex;
@@ -158,10 +159,11 @@ footer{
     height: fit-content;
     display: flex;
     justify-content: center;
-    background-color: aliceblue;
+    background-color: rgb(15, 15, 15);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
     border-radius: 5px;
     margin-top: 3px;
+    color: white;
 }
 
 .opciones_razas{
@@ -176,6 +178,12 @@ footer{
     -moz-user-select: none;    
     -ms-user-select: none;
 }
+#human, #elf, #delfdark, #elf, #orc, #dwarf, #kamael{
+    width: 50px;
+}
+.opciones_razas:hover{
+    box-shadow: 0 0 10px 0 rgba(252, 252, 252, 0.6);
+}
 .opciones_razas img{
     width: 32px;
     height: 32px;
@@ -186,24 +194,22 @@ footer{
 /* -------------------------------------------------------------------------- background */
 body{
     background-color: #1b1b1b;
-    background-size: cover;
-    background-position: top center;
-    background-repeat: round;
-    background-attachment: fixed;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
     border-radius: .25rem !important;
 }
-
-main{
+/* .fondo_index{
+    background: url(../img/fondoweb.webp) no-repeat center fixed;
+} */
+.estilo_fondo{
     background-color: rgb(15, 15, 15);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
-    width: 70%;
-    margin: auto;
+    width: 85%;
     border-radius: 5px;
+    margin: auto;
     padding: 1rem;
     color: rgb(209, 208, 208);
-    
 }
+
 .bloque_centrado{
     display: flex;
     justify-content: center;
@@ -235,7 +241,7 @@ table{
     border-radius: 3px;
 }
 thead{
-    background-color: rgb(188, 231, 215);
+    background-color: rgb(46, 46, 46);
 }
 
 th{
@@ -396,9 +402,22 @@ td img{
 }
 p{
     font-family: "roboto_regular";
-    
 }
 
 .margin_10{
     margin: 10px;
+}
+
+/* -------------------------------------------------------------------------- index */
+.contenedor_index{
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    width: 85%;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    padding: 1rem;
+    color: rgb(209, 208, 208);
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
 }
