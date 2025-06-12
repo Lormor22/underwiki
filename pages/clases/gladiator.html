@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <script src="../../js/scripts.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/css.css">
@@ -121,12 +120,12 @@
         <hr style="border: none; height: 2px; background-color: black; margin-top: 10px; margin-bottom: 7px;">
         <p class="letra_chica"> 
             <b> Quest:</b> 
-            <a style="color: blue;" href="">Trial of the Challenger</a>, 
-            <a style="color: blue;" href="">Testimony of Trust</a>, 
-            <a style="color: blue;" href="">Test of the Duelist</a>
+            <a class="color_para_link" href="">Trial of the Challenger</a>, 
+            <a class="color_para_link" href="">Testimony of Trust</a>, 
+            <a class="color_para_link" href="">Test of the Duelist</a>
         </p>
-            
-        <p class="margin_10">El Gladiator es una clase de guerrero cuerpo a cuerpo, perteneciente a la raza de los Humanos y 
+        <!-- <div style="width: 70%; margin-left: 5%;">
+            <p class="margin_10">El Gladiator es una clase de guerrero cuerpo a cuerpo, perteneciente a la raza de los Humanos y 
             especializada en el uso de espadas dobles. Su estilo de combate es feroz y directo, basado en devastadores 
             ataques físicos capaces de causar gran daño a múltiples enemigos gracias a sus habilidades de área, como el 
             temido Triple Slash y el letal Sonic Storm. Su capacidad de generar y utilizar cargas de 
@@ -134,10 +133,92 @@
             le permite desatar poderosos combos en batalla, lo que lo convierte en una amenaza letal en enfrentamientos uno contra uno o en combates 
             de corto alcance. El Gladiator es la encarnación de la fuerza bruta y la técnica, dominando la arena con su presencia 
             imponente y su inquebrantable determinación.</p>
-            <p class="margin_10">En nivel 76 el Gladiador inicia su aventura para poder convertirse en <a style="color: rgb(49, 49, 218);" href=""><b>Duelist</b></a> y aprender habilidades nuevas</p>
-            <h2 class="margin_10">Habilidades:</h2>
+            <p class="margin_10">En nivel 76 el Gladiador inicia su aventura para poder convertirse en <a class="color_para_link" href=""><b>Duelist</b></a> y aprender habilidades nuevas</p>
+            
+        </div> -->
+        <div class="onest_font donde_estoy">
+            <div>
+                <a style="font-size: 15px !important;" href="">Warrior</a>
+            </div>
+            <i class="ti ti-separator"></i>
+            <div class="color_para_link">
+                <a style="font-size: 25px !important;" href=""><b>Gladiator</b></a>
+            </div>
+            <i class="ti ti-separator"></i>
+            <div >
+                <a style="font-size: 15px !important;" href="">Duelist</a>
+            </div>
+        </div>
+
+        <h2 class="margin_10">Skills:</h2>
+            <!-- Pestañas niveles -->
+        <div class="contenedor_pestanias">
+                <div class="pestania_class">40</div>
+                <div class="pestania_class">43</div>
+                <div class="pestania_class">46</div>
+                <div class="pestania_class">49</div>
+                <div class="pestania_class">52</div>
+                <div class="pestania_class">55</div>
+                <div class="pestania_class">58</div>
+                <div class="pestania_class">60</div>
+                <div class="pestania_class">62</div>
+                <div class="pestania_class">64</div>
+                <div class="pestania_class">66</div>
+                <div class="pestania_class">68</div>
+                <div class="pestania_class">70</div>
+                <div class="pestania_class">72</div>
+                <div class="pestania_class">74</div>
+                <div class="pestania_class">76</div>
+        </div>
+                                                                                    <!-- Nivel 40 -->
+        <div class="title_text_row">
+            <div class="titulo_row ">
+                <b class="color_para_link">Level 40</b>
+            </div>
+            <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                    <div>
+                        <div style="font-size: 12px !important;">Name and description</div>
+                    </div>
+                </div>
+                <div class="stat_column">SP</div>    <!-- SP -->
+                <div class="stat_column">Active</div> <!-- Toogle o activable -->
+                <div class="stat_column">Magic</div>   <!-- magico o fisico -->
+                <div class="stat_column">Spellbook</div>     <!-- libro? -->
+                <div class="stat_column">Enchanteable</div>   <!-- enchanteable? -->
+                <div class="stat_column">Element</div>   <!-- Elemento -->
+            </div>  
+            
+            <div class="row_skill_tabla">
+                <div class="row_skill_tabla2">
+                    <div class="img_row_skill_tabla"><img src="../../img/noimage.png" alt=""></div>
+                    <div>
+                        <div class="title_text_row"><a href="">Vicious Stance <b class="color_para_link">Lv.6</b></a></div>
+                        <div class="text_row">Uses 3594 Power to provoke nearby enemies to attack.</div>
+                    </div>
+                </div>
+                <div class="stat_column">33000</div>    <!-- SP -->
+                <div class="stat_column">Toggle</div> <!-- Toogle o activable -->
+                <div class="stat_column">No</div>   <!-- magico o fisico -->
+                <div class="stat_column"></div>     <!-- libro? -->
+                <div class="stat_column">No</div>   <!-- enchanteable? -->
+                <div class="stat_column">No</div>   <!-- Elemento -->
+            </div>   
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+            
             <!-- Nivel 40 -->
-            <table class="tabla_titulo"> 
+            <table class="tabla_titulo" style="margin-top: 800px;"> 
                 <thead id="tabla_lv_40">
                     <tr >
                         <th class="titulo_tabla" colspan="5" onclick="ShowHide('tabla_lv_40_skills')">
@@ -2700,6 +2781,6 @@
             <p class=" onest_font">Lineage 2 wiki diseñada por <a href="https://www.linkedin.com/in/francisco-davico-4ba32572/" target="_blank" >Lormor</a> para <a href="https://www.undergames.net" target="_blank">© UnderGames</a></p>
         </div>
     </footer>
-    <script src="../menu_interactivo.js"></script>
+        <script src="../../js/scripts.js"></script>
 </body>
 </html>
