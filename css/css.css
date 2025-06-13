@@ -309,7 +309,9 @@ body{
 .text_row{
     font-size: 11px !important;
 }
-
+.esconder{
+    display: none;
+}
 
 
 
