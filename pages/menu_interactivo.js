@@ -65,7 +65,7 @@ function mostrar_humanos(){
             </a>
             <a href="../pages/test.html">
                 <div class="opciones_razas">
-                    <img src="../../img/tank/da/skill0762_Insane_Crusher.webp" alt="Hell Knight">
+                    <img src="../../img/tank/da/skill0763_Hell_Scream.webp" alt="Hell Knight">
                     <p class="test">Hell Knight</p>
                 </div>
             </a>
@@ -117,7 +117,7 @@ function mostrar_humanos(){
         <div>
             <a href="../pages/test.html">
                 <div class="opciones_razas">
-                    <img src="../../img/mago/skill1148_Death_Spike.webp" alt="Necromancer">
+                    <img src="../../img/mago/skill1263_Curse_Gloom.webp" alt="Necromancer">
                     <p class="test">Necromancer</p>
                 </div>
             </a>
@@ -466,9 +466,20 @@ function mostrar_kamaeles(){
         </div>
         <div>
             <div class="opciones_razas">
+                <img src="../../img/kamael/skill1476_Appetite_for_Destruction.webp" alt="Inspector">
+                <p class="test">Inspector</p>
+            </div>
+            <div class="opciones_razas">
+                <img src="../../img/kamael/skill0538_Final_Form.webp" alt="Judicator">
+                <p class="test">Judicator</p>
+            </div>
+        </div>
+        <div>
+            <div class="opciones_razas">
                 <img src="../../img/kamael/skill1440_Steal_Divinity.webp" alt="Female Soulbreaker">
                 <p class="test">Female Soulbreaker</p>
             </div>
+            
             <div class="opciones_razas">
                 <img src="../../img/kamael/skill0791_Lightning_Shock.webp" alt="Female Soulhound">
                 <p class="test">Female Soulhound</p>
@@ -482,16 +493,6 @@ function mostrar_kamaeles(){
             <div class="opciones_razas">
                 <img src="../../img/kamael/skill1470_Prahnah.webp" alt="Trikster">
                 <p class="test">Trikster</p>
-            </div>
-        </div>
-        <div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill1476_Appetite_for_Destruction.webp" alt="Inspector">
-                <p class="test">Inspector</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill0538_Final_Form.webp" alt="Judicator">
-                <p class="test">Judicator</p>
             </div>
         </div>
     </div>
