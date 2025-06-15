@@ -312,6 +312,10 @@ body{
 .esconder{
     display: none;
 }
+.brilli{
+    background-color: #3b3b3b;
+    color: rgb(99, 99, 99);
+}
 
 
 
