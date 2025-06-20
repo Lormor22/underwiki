@@ -20,7 +20,7 @@ function mostrar_humanos(){
                     <p class="test">Gladiator</p>           
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="../clases/duelist.html">
                 <div class="opciones_razas">
                     <img src="../../img/warrior/gladi/skill0345_Sonic_Rage.webp" alt="duelist">
                     <p class="test">Duelist</p>                
@@ -28,13 +28,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="../clases/warlord.html">
                 <div class="opciones_razas">
                     <img src="../../img/warrior/pole/skill0048_Thunder_Storm.webp" alt="warlord">
                     <p class="test">Warlord</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="../clases/dreadnought.html">
                 <div class="opciones_razas">
                     <img src="../../img/warrior/pole/skill0361_Shock_Blast.webp" alt="Dreadnought">
                     <p class="test">Dreadnought</p>       
@@ -42,13 +42,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="../clases/paladin.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/pala/skill0406_Angelic_Icon.webp" alt="paladin">
                     <p class="test">Paladin</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="../clases/Phoenix_Knight.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/pala/skill0438_Soul_of_the_Phoenix.webp" alt="Phoenix Knight">
                     <p class="test">Phoenix Knight</p>
@@ -57,13 +57,13 @@ function mostrar_humanos(){
 
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/tank/da/skill0283_Summon_Dark_Panther.webp" alt="Dark Avenger">
                     <p class="test">Dark Avenger</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/tank/da/skill0763_Hell_Scream.webp" alt="Hell Knight">
                     <p class="test">Hell Knight</p>
@@ -71,13 +71,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0409_Critical_Blow.webp" alt="Treasure Hunter">
                     <p class="test">Treasure Hunter</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0768_Exciting_Adventure.webp" alt="Adventurer">
                     <p class="test">Adventurer</p>
@@ -85,13 +85,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div >
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0313_snipe.webp" alt="Hawkeye">
                     <p class="test">Hawkeye</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0771_Flame_Hawk.webp" alt="Sagittarius">
                     <p class="test">Sagittarius</p>
@@ -101,13 +101,13 @@ function mostrar_humanos(){
     </div>
     <div class="menu_razas">
         <div>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1230_Prominence.webp" alt="Sorceror">
                     <p class="test">Sorceror</p>           
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1339_Fire_Vortex.webp" alt="Archmage">
                     <p class="test">Archmage</p>                
@@ -115,13 +115,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1263_Curse_Gloom.webp" alt="Necromancer">
                     <p class="test">Necromancer</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1336_Curse_of_Doom.webp" alt="Soultaker">
                     <p class="test">Soultaker</p>       
@@ -129,13 +129,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1331_Summon_Feline_Queen.webp" alt="Warlock">
                     <p class="test">Warlock</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1406_Summon_Feline_King.webp" alt="Arcana Lord">
                     <p class="test">Arcana Lord</p>
@@ -143,13 +143,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1218_Greater_Battle_Heal.webp" alt="Bishop">
                     <p class="test">Bishop</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1335_Balance_Life.webp" alt="Cardinal">
                     <p class="test">Cardinalt</p>
@@ -157,13 +157,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1086_Haste.webp" alt="Prophet">
                     <p class="test">Prophet</p>
                 </div>
             </a>
-            <a href="../pages/test.html">
+            <a href="#">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1356_Prophecy_of_Fire.webp" alt="Hierophant">
                     <p class="test">Hierophant</p>

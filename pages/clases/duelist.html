@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/css.css">
+    <link rel="icon" href="../../img/warrior/gladi/skill0345_Sonic_Rage.webp" type="image/x-icon">
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <title> Duelist  - Undergames</title>
+</head>
+<body class="footer_abajo">
+        <header>
+        <div class="cabecera"> 
+            <a href="../../index.html"><img src="../../img/logo3.webp" alt="Underlogo"></a>
+        <ul class="nav">
+            <li class="mouse_arriba">
+                <a href="../../pages/npcs/npcs.html">NPCs</a>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#">Items</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/items/armors.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Armors</a></li>
+                        <li><a href="../../pages/items/weapons.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Weapons</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#" >Skills</a>
+                </div>
+                <ul>
+                    <div class="brillito" >
+                        <li><a href="../../pages/class_skills/class_skills.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Class Skills</a></li>
+                        <li><a href="../../pages/skills/clan_skills.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Clan Skills</a></li>
+                        <li><a href="../../pages/skills/Augmentation.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Augmentation</a></li>
+                        <li><a href="../../pages/skills/Certification.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Certification</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#">Quest</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/quests/class_quest.html">Class quest</a></li>
+                        <li><a href="../../pages/quests/7s_p1.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Seven Sings P1</a></li>
+                        <li><a href="../../pages/quests/7s_p2.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Seven Sings p2</a></li>
+                        <li><a href="../../pages/quests/territory_war.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Territory War</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#">Otros</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/otros/element.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Elemento</a></li>
+                        <li><a href="../../pages/otros/baylor.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Baylor</a></li>
+                        <li><a href="../../pages/otros/lucky_pig.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Luky Pig</a></li>
+                        <li><a href="../../pages/otros/dragon_valley.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Dragon Valley</a></li>
+                        <li><a href="../../pages/otros/olympiads.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Olympiads</a></li>
+                        <li><a href="../../pages/otros/soul_crystals.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Soul Crystal</a></li>
+                    </div>
+                </ul>
+            </li>
+                
+        </ul>
+        </div>
+        <div class="mouse_arriba">
+            <a class="play" href="https://undergames.net/lindvior10/" target="_blank">Play UG</a>
+        </div>
+        </header>
+    <div id="buscador_id" class="buscador"></div>
+    <div class="bloque_centrado" >
+        <div class="menu_razas" >
+            <div class="opciones_razas" id="human">
+                <img  src="../../img/etc/iconos_web/skill1902_human.webp" alt="Human">
+                <p class="test">Human</p>
+            </div>
+            <div class="opciones_razas" id="elf">
+                <img  src="../../img/etc/iconos_web/skill1906_elf.webp" alt="Elf">
+                <p class="test">Elf</p>
+            </div>
+            <div class="opciones_razas" id="dark_elf">
+                <img  src="../../img/etc/iconos_web/skill1913_d_elf.webp" alt="Dark Elf">
+                <p class="test">Dark Elf</p>
+            </div>
+            <div class="opciones_razas" id="orc">
+                <img  src="../../img/etc/iconos_web/skill1917_orc.webp" alt="Orc">
+                <p class="test">Orc</p>
+            </div>
+            <div class="opciones_razas" id="dwarf">
+                <img  src="../../img/etc/iconos_web/skill1920_dward.webp" alt="Dwarf">
+                <p class="test">Dwarf</p>
+            </div>
+            <div class="opciones_razas" id="kamael">
+                <img  src="../../img/etc/iconos_web/skill1924_kamael.webp" alt="Kamael">
+                <p class="test">Kamael</p>
+            </div>
+        </div>
+    </div>
+    <div class="bloque_centrado">
+        <div id="menu_razas_parte2">
+            <!-- Acá aparecen cosas por JS -->
+        </div>
+    </div>
+    <div class="direccion_link">
+        <div> <a href="../../index.html">Underwiki </a> > <a href="../class_skills/class_skills.html">Class Skills</a> > Duelist </div>
+    </div>
+    <main class="contenido_comunidad estilo_fondo">
+        <div class="titulo_img">
+            <img class="img_presentacion" src="../../img/warrior/gladi/skill0345_Sonic_Rage.webp" alt="">
+            <h1 id="top">Duelist</h1>
+        </div>
+        <hr style="border: none; height: 2px; background-color: black; margin-top: 10px; margin-bottom: 7px;">
+        <p class="letra_chica"> 
+            <b> Quest:</b> 
+            <a class="color_para_link" href="#">Saga of the Duelist</a>
+
+        </p>
+
+        <div class="onest_font donde_estoy">
+            <div>
+                <a style="font-size: 15px !important;" href="#">Warrior</a>
+            </div>
+            <i class="ti ti-separator"></i>
+            <div >
+                <a style="font-size: 15px !important;" href="../clases/gladiator.html">Gladiator</a>
+            </div>
+            <i class="ti ti-separator"></i>
+            <div class="color_para_link">
+                <a style="font-size: 25px !important;" href="#"><b>Duelist</b></a>
+            </div>
+        </div>
+
+        <h2 class="margin_10 onest_font">Skills:</h2>
+            <!-- Pestañas niveles -->
+        <div class="contenedor_pestanias">
+                <div class="pestania_class brilli" id="boton_76">76</div>
+                <div class="pestania_class" id="boton_77">77</div>
+                <div class="pestania_class" id="boton_78">78</div>
+                <div class="pestania_class" id="boton_79">79</div>
+                <div class="pestania_class" id="boton_80">80</div>
+                <div class="pestania_class" id="boton_81">81</div>
+                <div class="pestania_class" id="boton_82">82</div>
+                <div class="pestania_class" id="boton_83">83</div>
+                <div class="pestania_class" id="boton_all">All</div>
+
+        </div>
+                                                                                            <!-- Nivel 76 -->
+        <div id="lv76" class="">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 76</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0329_Healt.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Vicious Stance </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Increases Resistance to poison and Bleed attacks by 20.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">10000000</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0328_Wisdom.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Wisdom </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Increases Resistance to Hold, Sleep and Mental attacks by 20.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">10000000</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+
+                
+            </div>
+        </div>
+                                                                                            <!-- Nivel 77 -->
+        <div id="lv77" class="esconder">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 77</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0340_Riposte_Stance.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Riposte Stance </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Parries and returns an attack using a weapon. Returns 30% of received standard short-range damage back to the enemy, and reflects buff/de-buff with 30% probability. 
+                                Decreases Speed by 10%, Atk. Spd. by 20%, and Accuracy by 4. Continuously consumes MP proportionately to the user's level.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">12250000</div>    <!-- SP -->
+                    <div class="stat_column">Toggle</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0330_Skill_Mastery.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>	Skill Mastery </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Depending on user's STR, the re-use time resets or the duration doubles.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">12250000</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/skill0359_Eye_of_Hunter.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Eye of Hunter </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Increases P. Atk. by 93.1 when using a dualsword.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">12250000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+            </div>
+        </div>
+                                                                                            <!-- Nivel 78 -->
+        <div id="lv78" class="esconder">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 78</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0430_Master_of_Combat.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Master of Combat </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Increases Max CP by 5%, and when using a sword/blunt weapon/spear/dualsword/hand-to-hand combat weapon, 
+                                increases P. Atk. by 80.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">16000000</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0440_Braveheart.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Braveheart </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Increases combat spirit to recover CP by 1000.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">16000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/skill0360_Eye_of_Slayer.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Eye of Slayer  </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Increases P. Atk. toward monsters, magic creatures, Giants and Dragons by 30% for 10 minutes.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">16000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/gladi/skill0345_Sonic_Rage.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>	Sonic Rage </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Attacks the enemy with a devastating burst of energy. Requires a dualsword. 
+                                Possible up to stage 8. Over-hit and critical hit are possible.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">16000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+
+
+                
+            </div>
+        </div>
+                                                                                            <!-- Nivel 79 -->
+        <div id="lv79" class="esconder">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 79</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/gladi/skill0992_Sonic_Mastery.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Sonic Mastery </b><b class="color_para_link">Lv.9</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Absorbs the target's energy. Energy can be absorbed with a 15% chance for regular physical attacks and 30% during a critical attack. 
+                                Applies when a sword, blunt weapon, or dualsword is equipped. Up to 8 stage of energy can be absorbed.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">66000000</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/gladi/skill0442_Sonic_Barrier.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Sonic Barrier </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Uses sword energy make user invincible against standard targets, skills and de-buffs for 10 seconds. 
+                                Requires a dualsword. Requires 5th stage Sword Energy..</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">80000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/gladi/skill0008_Sonic_focus.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Sonic Focus </b><b class="color_para_link">Lv.8</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Increases P. Atk. toward monsters, magic creatures, Giants and Dragons by 30% for 10 minutes.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">80000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+                
+            </div>
+        </div>
+                                                                                            <!-- Nivel 80 -->
+        <div id="lv80" class="esconder">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 80</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/skill0458_Symbol_of_Energy.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Symbol of Energy </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Creates a seal that increases P. Atk. and spiritual energy of nearby allies. The seal's effect disappears upon leaving the area. 
+                                Consumes 1 Battle Symbol.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">150000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/gladi/skill0775_Weapon_Blockade.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Weapon Blockade </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Cancels the opponent's weapon with a dazzling movement for 5 seconds. Need to recharge 2nd stage of Sword Energy. Requires a dualsword.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">100000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Weapon Blockade </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+            </div>
+
+
+
+
+
+
+        </div>
+                                                                                            <!-- Nivel 81 -->
+        <div id="lv81" class="esconder">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 81</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0759_Archers_Will.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Archer's Will </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">When a bow/crossbow is used, Accuracy increases by 8 and range increases by 50. When attacking, 
+                                the physical skill's power and Critical Rate are increased at a fixed rate.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Archer's Will </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0767_Expose_Weak_Point.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Expose Weak Point</b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Gives flesh and takes a bone. Decreases the enemy's P. Def. by temporarily exposing his weakness when receiving the enemy's attack. 
+                                Increases the critical hit rate of general attacks.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Expose Weak Point  </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0758_Fighters_Will.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Fighter's Will </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">When using a short-range weapon, increases P. Atk. by 100 and Atk. Spd. by 10%. When attacking, has a chance 
+                                to increases physical skills' Power and Critical Rate.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Fighter's Will   </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0917_Final_Secret.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Final Secret </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">For 30 seconds, you call upon your hidden reserves to increase your skills power and ordinary attack damage by 30% during PvP.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Final Secret    </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+            </div>
+
+
+
+
+
+
+        </div>
+                                                                                            <!-- Nivel 82 -->
+        <div id="lv82" class="esconder">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 82</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0757_Protection_of_Alignment.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Protection of Alignment </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Resistance to tendency attributes is increased by 20, and when damage is incurred, M. Def. 
+                                and Resistance to elemental attributes are additionally increased instantly depending on the probability.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Protection of Alignment  </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0756_Protectio_of_Elemental.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Protection of Elemental </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Resistance to elemental attributes is increased by 20, and when damage is incurred, M. Def. and 
+                                Resistance to elemental attributes are additionally increased instantly depending on the probability.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Protection of Elemental   </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/general/skill0755_Protection_of_Rune.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Protection of Rune </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">M. Def. is increased by 15%, and when damage is incurred, additional M. Def. 
+                                and Resistance to attributes are increased instantly depending on the probability.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Passive</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Protection of Rune   </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+            </div>
+
+
+
+
+
+
+        </div>
+                                                                                            <!-- Nivel 83 -->
+        <div id="lv83" class="esconder">
+            <div class="title_text_row">
+                <div class="titulo_row ">
+                    <b class="color_para_link">Level 83</b>
+                </div>
+                <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                    <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                        <div>
+                            <div style="font-size: 12px !important;">Name and description</div>
+                        </div>
+                    </div>
+                    <div class="stat_column">SP</div>    
+                    <div class="stat_column">Active</div> 
+                    <div class="stat_column">Magic</div>   
+                    <div class="stat_column">Spellbook</div>   
+                    <div class="stat_column">Attribute </div>  
+                </div>  
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/warrior/gladi/skill0919_Maximum_Focus_Sonic.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Maximum Focus Sonic </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Immediately increases spiritual energy to its maximum level.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" style="display: flex; flex-direction: column; align-items: center;"><img style="width: 32px;" src="../../img/noimage.png" alt="">Forgotten Scroll - Maximum Sonic Focus </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"><img src="../../img/kamael/skill0793_Rush_Impact.webp" alt=""></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b>Rush Impact </b><b class="color_para_link">Lv.1</b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">Rushes forward to attack the enemies in front with 4224 Power added to P. Atk. and inflicts Shock for 9 seconds. 
+                                Cannot be used when a bow/crossbow is equipped.</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">100000000</div>    <!-- SP -->
+                    <div class="stat_column">Active</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">No</div>   <!-- magico? -->
+                    <div class="stat_column" >- </div>     <!-- libro? -->
+                    <div class="stat_column">No</div>   <!-- Elemento -->
+                </div>
+                
+
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="row_skill_tabla">
+                    <div class="row_skill_tabla2">
+                        <div class="img_row_skill_tabla"></div> <!-- img -->
+                        <div>
+                            <div class="title_text_row"><a href="#"><b></b><b class="color_para_link"></b></a></div> <!-- nombre + lvl -->
+                            <div class="text_row">-</div> <!-- description -->
+                        </div>
+                    </div>
+                    <div class="stat_column">-</div>    <!-- SP -->
+                    <div class="stat_column">-</div> <!-- Toogle, activable o passive -->
+                    <div class="stat_column">-</div>   <!-- magico? -->
+                    <div class="stat_column"></div>     <!-- libro? -->
+                    <div class="stat_column">-</div>   <!-- Elemento -->
+                </div>
+                
+                <div class="title_text_row">
+                    <div class="row_skill_tabla" style="background-color: #1b1b1b;" >
+                        <div class="row_skill_tabla2" style="background-color: #1b1b1b;">
+                            <div>
+                                <div style="font-size: 12px !important; margin-left: 20px;"><a href="#top">Top<i class="ti ti-caret-up"></i></a></div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                
+            </div>
+
+
+        </div>
+
+
+
+
+    </div>
+
+
+    </main>
+    <footer class="letra_chica">
+        <div class="inconos">
+            <div>
+                <a href="https://www.facebook.com/groups/l2undergames" target="_blank"><i  class="ti ti-brand-facebook tamanio_icono" ></i></a> 
+            </div>
+            <div>
+                <a href="https://discord.com/invite/U7vu5hd3K5" target="_blank"><i class="ti ti-brand-discord tamanio_icono"></i></a>
+            </div>
+            <div>
+                    <a href="https://www.youtube.com/@UnderGames.L2" target="_blank"><i class="ti ti-brand-youtube tamanio_icono"></i></a>
+            </div>
+        </div> 
+        <div>
+            <p class=" onest_font">Lineage 2 wiki diseñada por <a href="https://www.linkedin.com/in/francisco-davico-4ba32572/" target="_blank" >Lormor</a> para <a href="https://www.undergames.net" target="_blank">© UnderGames</a></p>
+        </div>
+    </footer>
+        <script src="../menu_interactivo.js"></script>
+        <script src="../../js/scripts.js"></script>
+        
+</body>
+</html>
