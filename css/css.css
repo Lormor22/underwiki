@@ -12,8 +12,14 @@ a {
     text-decoration: none;  
     color: inherit;           
 }
-
-
+/* -------------- Testeo de efecto - solo para chrome */
+@view-transition{ 
+    navigation: auto;
+}
+::view-transition-group(*){
+    animation-duration: 0.3s;
+}
+/* -------------------------------------------------- */
 @font-face {
     font-family: "lineage_font";
     src: url(../fonts/lineage_font.ttf);
@@ -45,7 +51,7 @@ a {
     color: rgb(131, 130, 130); 
     padding-bottom: 5px; 
     margin-top: 5rem;
-    font-size: 11px
+    font-size: 13px
 }
 /*-------------------------------------------------------------------------- Menu cabecera */
 header{
@@ -80,6 +86,7 @@ ul, ol {
 }
 .mouse_arriba a:hover{
     background-color: rgb(56, 56, 56);
+    box-shadow: 0 0 10px 0 rgba(94, 81, 55, 0.6);
 }
 .nav li ul li a{
     display: flex;
@@ -303,7 +310,7 @@ body{
     padding: 16px;
     align-items: center;
     font-family: "Onest";
-    font-size: 12px;
+    font-size: 14px;
 }
 .row_skill_tabla2{
     display: flex;
@@ -323,11 +330,12 @@ body{
     text-align: center;
 }
 .title_text_row{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
+    font-family: "Onest";
 }
 .text_row{
-    font-size: 11px !important;
+    font-size: 13px !important;
     font-weight: 400;
 }
 .esconder{

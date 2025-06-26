@@ -14,7 +14,7 @@ function ShowHide(id , el) {
 
 
 function cerrar_todo_skills() {
-    const niveles = [40, 43, 46, 49, 52, 55, 58, 60, 61, 62, 64, 66, 68, 70, 72, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85];
+    const niveles = [40, 43, 44, 46, 48, 49, 52, 55, 56, 58, 60, 61, 62, 64, 66, 68, 70, 72, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85];
 
     niveles.forEach(nivel => {
         const elemento = document.getElementById(`lv${nivel}`);
@@ -28,7 +28,7 @@ function cerrar_todo_skills() {
 function usando_all() {
     chau_brilli();
 
-    const niveles = [40, 43, 46, 49, 52, 55, 58, 60, 61, 62, 64, 66, 68, 70, 72, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85];
+    const niveles = [40, 43, 44, 46, 48, 49, 52, 55, 56, 58, 60, 61, 62, 64, 66, 68, 70, 72, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85];
 
     niveles.forEach(nivel => {
         const elemento = document.getElementById(`lv${nivel}`);
@@ -65,7 +65,7 @@ function abrir_nivel(nivel) {
     } 
 }
 
-[40, 43, 46, 49, 52, 55, 58, 60, 61, 62, 64, 66, 68, 70, 72, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85].forEach(nivel => {
+[40, 43, 44, 46, 48, 49, 52, 55, 56, 58, 60, 61, 62, 64, 66, 68, 70, 72, 74, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85].forEach(nivel => {
     const boton = document.getElementById(`boton_${nivel}`);
     if (boton) {
         boton.addEventListener("click", () => abrir_nivel(nivel));

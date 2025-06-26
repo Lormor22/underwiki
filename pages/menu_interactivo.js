@@ -57,13 +57,13 @@ function mostrar_humanos(){
 
         </div>
         <div>
-            <a href="#">
+            <a href="../clases/Dark_Avenger.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/da/skill0283_Summon_Dark_Panther.webp" alt="Dark Avenger">
                     <p class="test">Dark Avenger</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Hell_Knight.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/da/skill0763_Hell_Scream.webp" alt="Hell Knight">
                     <p class="test">Hell Knight</p>
@@ -71,13 +71,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="../clases/Treasure_Hunter.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0409_Critical_Blow.webp" alt="Treasure Hunter">
                     <p class="test">Treasure Hunter</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Adventurer.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0768_Exciting_Adventure.webp" alt="Adventurer">
                     <p class="test">Adventurer</p>
@@ -85,13 +85,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div >
-            <a href="#">
+            <a href="../clases/Hawkeye.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0313_snipe.webp" alt="Hawkeye">
                     <p class="test">Hawkeye</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Sagittarius.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0771_Flame_Hawk.webp" alt="Sagittarius">
                     <p class="test">Sagittarius</p>
@@ -101,13 +101,13 @@ function mostrar_humanos(){
     </div>
     <div class="menu_razas">
         <div>
-            <a href="#">
+            <a href="../clases/Sorceror.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1230_Prominence.webp" alt="Sorceror">
                     <p class="test">Sorceror</p>           
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Archmage.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1339_Fire_Vortex.webp" alt="Archmage">
                     <p class="test">Archmage</p>                
@@ -115,13 +115,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="../clases/Necromancer.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1263_Curse_Gloom.webp" alt="Necromancer">
                     <p class="test">Necromancer</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Soultaker.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1336_Curse_of_Doom.webp" alt="Soultaker">
                     <p class="test">Soultaker</p>       
