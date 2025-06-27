@@ -129,13 +129,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="../clases/Warlock.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1331_Summon_Feline_Queen.webp" alt="Warlock">
                     <p class="test">Warlock</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Arcana_Lord.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1406_Summon_Feline_King.webp" alt="Arcana Lord">
                     <p class="test">Arcana Lord</p>
@@ -143,13 +143,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="../clases/Bishop.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1218_Greater_Battle_Heal.webp" alt="Bishop">
                     <p class="test">Bishop</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Cardinal.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1335_Balance_Life.webp" alt="Cardinal">
                     <p class="test">Cardinalt</p>
@@ -157,13 +157,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="#">
+            <a href="../clases/Prophet.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1086_Haste.webp" alt="Prophet">
                     <p class="test">Prophet</p>
                 </div>
             </a>
-            <a href="#">
+            <a href="../clases/Hierophant.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1356_Prophecy_of_Fire.webp" alt="Hierophant">
                     <p class="test">Hierophant</p>
