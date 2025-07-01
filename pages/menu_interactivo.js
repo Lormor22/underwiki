@@ -183,82 +183,110 @@ function mostrar_elfos(){
     nuevo_contenido.innerHTML= `
     <div class="menu_razas">
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/general/cubics/skill0449_Summon_Attractive_Cubic.webp" alt="Temple Knight">
-                <p class="test">Temple Knight</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/tank/tk/skill0787_Touch_of_Eva.webp" alt="Evas Templar">
-                <p class="test">Evas Templar</p>                
-            </div>
+            <a href="../clases/Temple_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/general/cubics/skill0449_Summon_Attractive_Cubic.webp" alt="Temple Knight">
+                    <p class="test">Temple Knight</p>   
+                </div>
+            </a> 
+            <a href="../clases/Evas_Templar.html">
+                <div class="opciones_razas">
+                    <img src="../../img/tank/tk/skill0787_Touch_of_Eva.webp" alt="Evas Templar">
+                    <p class="test">Evas Templar</p>                
+                </div>
+            </a> 
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/tank/sws/skill0304_Song_of_Vitality.webp" alt="Sword Singer">
-                <p class="test">Sword Singer</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/tank/sws/skill0914_Song_of_Purification.webp" alt="Sword Muse">
-                <p class="test">Sword Muse</p>                
-            </div>
+            <a href="../clases/Sword_Singer.html">
+                <div class="opciones_razas">
+                    <img src="../../img/tank/sws/skill0304_Song_of_Vitality.webp" alt="Sword Singer">
+                    <p class="test">Sword Singer</p>           
+                </div>
+            </a> 
+            <a href="../clases/Sword_Muse.html">
+                <div class="opciones_razas">
+                    <img src="../../img/tank/sws/skill0914_Song_of_Purification.webp" alt="Sword Muse">
+                    <p class="test">Sword Muse</p>                
+                </div>
+            </a> 
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0296_Chameleon_Rest.webp" alt="Plains Walkerr">
-                <p class="test">Plains Walker</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0769_Wind_Riding.webp" alt="Wind Rider">
-                <p class="test">Wind Rider</p>                
-            </div>
+            <a href="../clases/Plains_Walker.html">
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0296_Chameleon_Rest.webp" alt="Plains Walkerr">
+                    <p class="test">Plains Walker</p>           
+                </div>
+            </a> 
+            <a href="../clases/Wind_Rider.html">
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0769_Wind_Riding.webp" alt="Wind Rider">
+                    <p class="test">Wind Rider</p>                
+                </div>
+            </a> 
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0413_Rapid_Fire.webp" alt="Silver Ranger">
-                <p class="test">Silver Ranger</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0772_Arrow_Rain.webp" alt="Moonlight Sentinel">
-                <p class="test">Moonlight Sentinel</p>                
-            </div>
+            <a href="../clases/Temple_Knight.html"> 
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0413_Rapid_Fire.webp" alt="Silver Ranger">
+                    <p class="test">Silver Ranger</p>           
+                </div>
+            </a>
+            <a href="../clases/Temple_Knight.html"> 
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0772_Arrow_Rain.webp" alt="Moonlight Sentinel">
+                    <p class="test">Moonlight Sentinel</p>                
+                </div>
+            </a>
         </div>
 
     </div>
     <div class="menu_razas">
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1235_Hydro_Blast.webp" alt="Spell Singer">
-                <p class="test">Spell Singer</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1340_Ice_Vortex.webp" alt="MysticMuse">
-                <p class="test">MysticMuse</p>                
-            </div>
+            <a href="../clases/Temple_Knight.html"> 
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1235_Hydro_Blast.webp" alt="Spell Singer">
+                    <p class="test">Spell Singer</p>           
+                </div>
+            </a>
+            <a href="../clases/Temple_Knight.html"> 
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1340_Ice_Vortex.webp" alt="MysticMuse">
+                    <p class="test">MysticMuse</p>                
+                </div>
+            </a>
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1332_Summon_Seraphim_the_Unicorn.webp" alt="Elemental Summoner">
-                <p class="test">Elemental Summoner</p>         
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1407_Summon_Magnus_the_Unicorn.webp" alt="Elemental Master">
-                <p class="test">Elemental Master</p>    
-            </div>
+            <a href="../clases/Temple_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1332_Summon_Seraphim_the_Unicorn.webp" alt="Elemental Summoner">
+                    <p class="test">Elemental Summoner</p>         
+                </div>
+            </a>
+            <a href="../clases/Temple_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1407_Summon_Magnus_the_Unicorn.webp" alt="Elemental Master">
+                    <p class="test">Elemental Master</p>    
+                </div>
+            </a>
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1259_Resist_Shock.webp" alt="Elven Elder">
-                <p class="test">Elven Elder</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1355_Prophecy_of_Water.webp" alt="Evas Saint">
-                <p class="test">Evas Saint</p>                
-            </div>
+            <a href="../clases/Temple_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1259_Resist_Shock.webp" alt="Elven Elder">
+                    <p class="test">Elven Elder</p>           
+                </div>
+            </a>
+            <a href="../clases/Temple_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1355_Prophecy_of_Water.webp" alt="Evas Saint">
+                    <p class="test">Evas Saint</p>                
+                </div>
+            </a>
         </div>
     </div>
     `

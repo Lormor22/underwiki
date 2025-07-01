@@ -147,7 +147,7 @@ ul, ol {
 /*-------------------------------------------------------------------------- para el footer  */
 
 footer{
-    background-color: rgba(1b, 1b, 1b, 0.26);
+    /* background-color: rgba(1b, 1b, 1b, 0.26); */
     color: white;
     padding: 1rem 2rem;
     min-height: fit-content;
@@ -347,10 +347,6 @@ body{
 }
 
 
-
-
-
-
 /* -------------------------------------------------------------------------- tooltip */
 
 .tooltip{
@@ -536,8 +532,25 @@ p{
     z-index: 1;
 }
 
+.Underwiki{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+    padding: 10px;
+    font-size: 7rem;
+    z-index: 1;
+    font-family: "Onest";
+    display: flex;
+}
 
-
+.primerh1{
+    color: transparent;
+    -webkit-text-stroke: 5px rgb(255, 255, 255);
+}
+.segundoh1{
+    color: white;
+}
 
 
 
