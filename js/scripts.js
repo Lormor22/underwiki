@@ -73,4 +73,6 @@ function abrir_nivel(nivel) {
 });
 
 let boton_all = document.getElementById("boton_all");
-boton_all.addEventListener("click" , usando_all);
+if (boton_all) {
+    boton_all.addEventListener("click", usando_all);
+}

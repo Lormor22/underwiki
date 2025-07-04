@@ -228,13 +228,13 @@ function mostrar_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Temple_Knight.html"> 
+            <a href="../clases/Silver_Ranger.html"> 
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0413_Rapid_Fire.webp" alt="Silver Ranger">
                     <p class="test">Silver Ranger</p>           
                 </div>
             </a>
-            <a href="../clases/Temple_Knight.html"> 
+            <a href="../clases/Moonlight_Sentinel.html"> 
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0772_Arrow_Rain.webp" alt="Moonlight Sentinel">
                     <p class="test">Moonlight Sentinel</p>                
@@ -245,13 +245,13 @@ function mostrar_elfos(){
     </div>
     <div class="menu_razas">
         <div>
-            <a href="../clases/Temple_Knight.html"> 
+            <a href="../clases/Spell_Singer.html"> 
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1235_Hydro_Blast.webp" alt="Spell Singer">
                     <p class="test">Spell Singer</p>           
                 </div>
             </a>
-            <a href="../clases/Temple_Knight.html"> 
+            <a href="../clases/MysticMuse.html"> 
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1340_Ice_Vortex.webp" alt="MysticMuse">
                     <p class="test">MysticMuse</p>                
@@ -260,13 +260,13 @@ function mostrar_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Temple_Knight.html">
+            <a href="../clases/Elemental_Summoner.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1332_Summon_Seraphim_the_Unicorn.webp" alt="Elemental Summoner">
                     <p class="test">Elemental Summoner</p>         
                 </div>
             </a>
-            <a href="../clases/Temple_Knight.html">
+            <a href="../clases/Elemental_Master.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1407_Summon_Magnus_the_Unicorn.webp" alt="Elemental Master">
                     <p class="test">Elemental Master</p>    
@@ -275,13 +275,13 @@ function mostrar_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Temple_Knight.html">
+            <a href="../clases/Elven_Elder.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1259_Resist_Shock.webp" alt="Elven Elder">
                     <p class="test">Elven Elder</p>           
                 </div>
             </a>
-            <a href="../clases/Temple_Knight.html">
+            <a href="../clases/Evas_Saint.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1355_Prophecy_of_Water.webp" alt="Evas Saint">
                     <p class="test">Evas Saint</p>                
@@ -299,83 +299,113 @@ function mostrar_d_elfos(){
     let nuevo_contenido = document.getElementById("menu_razas_parte2");
     nuevo_contenido.innerHTML= `
     <div class="menu_razas">
+    
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/tank/sk/skill0279_Lightning_Strike.webp" alt="Shilien Knight">
-                <p class="test">Shilien Knight</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/tank/sk/skill0789_Spirit_of_Shilen.webp" alt="Shilien Templar">
-                <p class="test">Shilien Templar</p>                
-            </div>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/tank/sk/skill0279_Lightning_Strike.webp" alt="Shilien Knight">
+                    <p class="test">Shilien Knight</p>           
+                </div>
+            </a> 
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/tank/sk/skill0789_Spirit_of_Shilen.webp" alt="Shilien Templar">
+                    <p class="test">Shilien Templar</p>                
+                </div>
+            </a> 
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/tank/bd/skill0275_Dance_of_Fury.webp" alt="Blade Dancer">
-                <p class="test">Blade Dancer</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/tank/bd/skill0365_Dance_of_Siren.webp" alt="Spectral Dancer">
-                <p class="test">Spectral Dancer</p>                
-            </div>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/tank/bd/skill0275_Dance_of_Fury.webp" alt="Blade Dancer">
+                    <p class="test">Blade Dancer</p>           
+                </div>
+            </a> 
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/tank/bd/skill0365_Dance_of_Siren.webp" alt="Spectral Dancer">
+                    <p class="test">Spectral Dancer</p>                
+                </div>
+            </a> 
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0321_Blinding_Blow.webp" alt="Abyss Walker">
-                <p class="test">Abyss Walker</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0770_Ghost_Walking.webp" alt="Ghost Hunter">
-                <p class="test">Ghost Hunter</p>                
-            </div>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0321_Blinding_Blow.webp" alt="Abyss Walker">
+                    <p class="test">Abyss Walker</p>           
+                </div>
+            </a>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0770_Ghost_Walking.webp" alt="Ghost Hunter">
+                    <p class="test">Ghost Hunter</p>                
+                </div>
+            </a>
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0414_Dead_Eye.webp" alt="Phantom Ranger">
-                <p class="test">Phantom Ranger</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/arqdag/skill0773_Ghost_Piercing.webp" alt="Ghost Sentinel">
-                <p class="test">Ghost Sentinel</p>                
-            </div>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0414_Dead_Eye.webp" alt="Phantom Ranger">
+                    <p class="test">Phantom Ranger</p>           
+                </div>
+            </a>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/arqdag/skill0773_Ghost_Piercing.webp" alt="Ghost Sentinel">
+                    <p class="test">Ghost Sentinel</p>                
+                </div>
+            </a>
+
         </div>
 
     </div>
     <div class="menu_razas">
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1239_Hurricane.webp" alt="Spellhowler">
-                <p class="test">Spellhowler</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1457_Empowering_Echo.webp" alt="Storm Screamer">
-                <p class="test">Storm Screamer</p>                
-            </div>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1239_Hurricane.webp" alt="Spellhowler">
+                    <p class="test">Spellhowler</p>           
+                </div>
+            </a>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1457_Empowering_Echo.webp" alt="Storm Screamer">
+                    <p class="test">Storm Screamer</p>                
+                </div>
+            </a>
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1333_Summon_Nightshade.webp" alt="Phantom Summoner">
-                <p class="test">Phantom Summonerr</p>         
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1408_Summon_Spectral_Lord.webp" alt="Spectral Master">
-                <p class="test">Spectral Master</p>    
-            </div>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1333_Summon_Nightshade.webp" alt="Phantom Summoner">
+                    <p class="test">Phantom Summonerr</p>         
+                </div>
+            </a>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1408_Summon_Spectral_Lord.webp" alt="Spectral Master">
+                    <p class="test">Spectral Master</p>    
+                </div>
+            </a>
         </div>
 
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1539_Stigma_of_Shilien.webp" alt="Shilien Elder">
-                <p class="test">Shilien Elder</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/mago/skill1357_Prophecy_of_Wind.webp" alt="Shilien Saint">
-                <p class="test">Shilien Saint</p>                
-            </div>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1539_Stigma_of_Shilien.webp" alt="Shilien Elder">
+                    <p class="test">Shilien Elder</p>           
+                </div>
+            </a>
+            <a href="../clases/Shilien_Knight.html">
+                <div class="opciones_razas">
+                    <img src="../../img/mago/skill1357_Prophecy_of_Wind.webp" alt="Shilien Saint">
+                    <p class="test">Shilien Saint</p>                
+                </div>
+            </a>
         </div>
     </div>
     `
@@ -535,19 +565,106 @@ function mostrar_kamaeles(){
 // activadores
 
 let boton_raza1 = document.getElementById("human");
-boton_raza1.addEventListener("click" , mostrar_humanos);
+if (boton_raza1) {
+    boton_raza1.addEventListener("click", mostrar_humanos);
+}
 
 let boton_raza2 = document.getElementById("elf");
-boton_raza2.addEventListener("click" , mostrar_elfos);
+if (boton_raza2) {
+    boton_raza2.addEventListener("click", mostrar_elfos);
+}
 
 let boton_raza3 = document.getElementById("dark_elf");
-boton_raza3.addEventListener("click" , mostrar_d_elfos);
+if (boton_raza3) {
+    boton_raza3.addEventListener("click", mostrar_d_elfos);
+}
 
 let boton_raza4 = document.getElementById("orc");
-boton_raza4.addEventListener("click" , mostrar_orcos);
+if (boton_raza4) {
+    boton_raza4.addEventListener("click", mostrar_orcos);
+}
 
 let boton_raza5 = document.getElementById("dwarf");
-boton_raza5.addEventListener("click" , mostrar_enanos);
+if (boton_raza5) {
+    boton_raza5.addEventListener("click", mostrar_enanos);
+}
 
 let boton_raza6 = document.getElementById("kamael");
-boton_raza6.addEventListener("click" , mostrar_kamaeles);
+if (boton_raza6) {
+    boton_raza6.addEventListener("click", mostrar_kamaeles);
+}
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    let header_por_java = document.getElementById("header_js");
+    if (header_por_java) {
+        header_por_java.innerHTML = `<div class="cabecera"> 
+            <a href="../../index.html"><img src="../../img/logo3.webp" alt="Underlogo"></a>
+        <ul class="nav">
+            <li class="mouse_arriba">
+                <a href="../../pages/npcs/npcs.html">NPCs</a>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#">Items</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/items/armors.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Armors</a></li>
+                        <li><a href="../../pages/items/weapons.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Weapons</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#" >Skills</a>
+                </div>
+                <ul>
+                    <div class="brillito" >
+                        <li><a href="../../pages/class_skills/class_skills.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Class Skills</a></li>
+                        <li><a href="../../pages/skills/clan_skills.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Clan Skills</a></li>
+                        <li><a href="../../pages/skills/Augmentation.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Augmentation</a></li>
+                        <li><a href="../../pages/skills/Certification.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Certification</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#">Quest</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/quests/class_quest.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Class quest</a></li>
+                        <li><a href="../../pages/quests/7s_p1.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Seven Sings P1</a></li>
+                        <li><a href="../../pages/quests/7s_p2.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Seven Sings p2</a></li>
+                        <li><a href="../../pages/quests/territory_war.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Territory War</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a href="#">Otros</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/otros/element.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Attribute</a></li>
+                        <li><a href="../../pages/otros/baylor.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Baylor</a></li>
+                        <li><a href="../../pages/otros/lucky_pig.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Luky Pig</a></li>
+                        <li><a href="../../pages/otros/dragon_valley.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Dragon Valley</a></li>
+                        <li><a href="../../pages/otros/olympiads.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Olympiads</a></li>
+                        <li><a href="../../pages/otros/soul_crystals.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Soul Crystal</a></li>
+                    </div>
+                </ul>
+            </li>
+                
+        </ul>
+        </div>
+        <div class="mouse_arriba">
+            <a class="play" href="https://undergames.net/lindvior10/" target="_blank">Play UG</a>
+        </div>`;
+    } 
+});
+
+
+
