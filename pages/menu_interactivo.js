@@ -307,7 +307,7 @@ function mostrar_d_elfos(){
                     <p class="test">Shilien Knight</p>           
                 </div>
             </a> 
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Shilien_Templar.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/sk/skill0789_Spirit_of_Shilen.webp" alt="Shilien Templar">
                     <p class="test">Shilien Templar</p>                
