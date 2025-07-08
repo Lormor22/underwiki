@@ -152,7 +152,7 @@ function mostrar_humanos(){
             <a href="../clases/Cardinal.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1335_Balance_Life.webp" alt="Cardinal">
-                    <p class="test">Cardinalt</p>
+                    <p class="test">Cardinal</p>
                 </div>
             </a>
         </div>
@@ -316,13 +316,13 @@ function mostrar_d_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Blade_Dancer.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/bd/skill0275_Dance_of_Fury.webp" alt="Blade Dancer">
                     <p class="test">Blade Dancer</p>           
                 </div>
             </a> 
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Spectral_Dancer.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/bd/skill0365_Dance_of_Siren.webp" alt="Spectral Dancer">
                     <p class="test">Spectral Dancer</p>                
@@ -331,13 +331,13 @@ function mostrar_d_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Abyss_Walker.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0321_Blinding_Blow.webp" alt="Abyss Walker">
                     <p class="test">Abyss Walker</p>           
                 </div>
             </a>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Ghost_Hunter.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0770_Ghost_Walking.webp" alt="Ghost Hunter">
                     <p class="test">Ghost Hunter</p>                
@@ -346,13 +346,13 @@ function mostrar_d_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Phantom_Ranger.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0414_Dead_Eye.webp" alt="Phantom Ranger">
                     <p class="test">Phantom Ranger</p>           
                 </div>
             </a>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Ghost_Sentinel.html">
                 <div class="opciones_razas">
                     <img src="../../img/arqdag/skill0773_Ghost_Piercing.webp" alt="Ghost Sentinel">
                     <p class="test">Ghost Sentinel</p>                
