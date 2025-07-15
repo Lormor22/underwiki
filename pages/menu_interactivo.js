@@ -364,13 +364,13 @@ function mostrar_d_elfos(){
     </div>
     <div class="menu_razas">
         <div>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Spellhowler.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1239_Hurricane.webp" alt="Spellhowler">
                     <p class="test">Spellhowler</p>           
                 </div>
             </a>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Storm_Screamer.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1457_Empowering_Echo.webp" alt="Storm Screamer">
                     <p class="test">Storm Screamer</p>                
@@ -379,13 +379,13 @@ function mostrar_d_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Phantom_Summoner.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1333_Summon_Nightshade.webp" alt="Phantom Summoner">
                     <p class="test">Phantom Summonerr</p>         
                 </div>
             </a>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Spectral_Master.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1408_Summon_Spectral_Lord.webp" alt="Spectral Master">
                     <p class="test">Spectral Master</p>    
@@ -394,13 +394,13 @@ function mostrar_d_elfos(){
         </div>
 
         <div>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Shilien_Elder.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1539_Stigma_of_Shilien.webp" alt="Shilien Elder">
                     <p class="test">Shilien Elder</p>           
                 </div>
             </a>
-            <a href="../clases/Shilien_Knight.html">
+            <a href="../clases/Shilien_Saint.html">
                 <div class="opciones_razas">
                     <img src="../../img/mago/skill1357_Prophecy_of_Wind.webp" alt="Shilien Saint">
                     <p class="test">Shilien Saint</p>                
@@ -421,44 +421,60 @@ function mostrar_orcos(){
     nuevo_contenido.innerHTML= `
     <div class="menu_razas">
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/warrior/destro/skill0176_Frenzy.webp" alt="Destroyer">
-                <p class="test">Destroyer</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/warrior/destro/skill0536_Over_the_Body.webp" alt="Titan">
-                <p class="test">Titan</p>                
-            </div>
+            <a href="../clases/Destroyer.html">
+                <div class="opciones_razas">
+                    <img src="../../img/warrior/destro/skill0176_Frenzy.webp" alt="Destroyer">
+                    <p class="test">Destroyer</p>  
+                </div>
+            </a> 
+            <a href="../clases/Titan.html">
+                <div class="opciones_razas">
+                    <img src="../../img/warrior/destro/skill0536_Over_the_Body.webp" alt="Titan">
+                    <p class="test">Titan</p>                
+                </div>
+            </a> 
+    </div>
+        <div>
+            <a href="../clases/Tyrant.html">
+                <div class="opciones_razas">
+                    <img src="../../img/warrior/tyran/skill0222_Fury_Fists.webp" alt="Tyrant">
+                    <p class="test">Tyrant</p>
+                </div>
+            </a> 
+            <a href="../clases/Grand_Khavatari.html">
+                <div class="opciones_razas">
+                    <img src="../../img/warrior/tyran/skill0346_Raging_Force.webp" alt="Grand Khavatari">
+                    <p class="test">Grand Khavatari</p>       
+                </div>
+            </a> 
         </div>
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/warrior/tyran/skill0222_Fury_Fists.webp" alt="Tyrant">
-                <p class="test">Tyrant</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/warrior/tyran/skill0346_Raging_Force.webp" alt="Grand Khavatari">
-                <p class="test">Grand Khavatari</p>       
-            </div>
+            <a href="../clases/Overlord.html">
+                <div class="opciones_razas">
+                    <img src="../../img/orc/skill1248_Seal_of_Suspension.webp" alt="Overlord">
+                    <p class="test">Overlord</p>
+                </div>
+            </a> 
+            <a href="../clases/Dominator.html">
+                <div class="opciones_razas">
+                    <img src="../../img/orc/skill1509_Seal_of_Limit.webp" alt="Dominator">
+                    <p class="test">Dominator</p>
+                </div>
+            </a> 
         </div>
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/orc/skill1248_Seal_of_Suspension.webp" alt="Overlord">
-                <p class="test">Overlord</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/orc/skill1509_Seal_of_Limit.webp" alt="Dominator">
-                <p class="test">Dominator</p>
-            </div>
-        </div>
-        <div>
-            <div class="opciones_razas">
-                <img src="../../img/orc/skill1002_Flame_Chant.webp" alt="Warcryer">
-                <p class="test">Warcryer</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/orc/skill1366_Chant_of_Victory.webp" alt="Doomcryer">
-                <p class="test">Doomcryer</p>
-            </div>
+            <a href="../clases/Warcryer.html">
+                <div class="opciones_razas">
+                    <img src="../../img/orc/skill1002_Flame_Chant.webp" alt="Warcryer">
+                    <p class="test">Warcryer</p>
+                </div>
+            </a> 
+            <a href="../clases/Doomcryer.html">
+                <div class="opciones_razas">
+                    <img src="../../img/orc/skill1366_Chant_of_Victory.webp" alt="Doomcryer">
+                    <p class="test">Doomcryer</p>
+                </div>
+            </a>
         </div>
     </div>
     `
@@ -668,3 +684,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+    let header_por_java = document.getElementById("footer_js");
+    if (header_por_java) {
+        header_por_java.innerHTML = `<div class="inconos">
+            <div>
+                <a href="https://www.facebook.com/groups/l2undergames" target="_blank"><i  class="ti ti-brand-facebook tamanio_icono" ></i></a> 
+            </div>
+            <div>
+                <a href="https://discord.com/invite/U7vu5hd3K5" target="_blank"><i class="ti ti-brand-discord tamanio_icono"></i></a>
+            </div>
+            <div>
+                    <a href="https://www.youtube.com/@UnderGames.L2" target="_blank"><i class="ti ti-brand-youtube tamanio_icono"></i></a>
+            </div>
+        </div> 
+        <div>
+            <p class=" onest_font">Lineage 2 wiki diseñada por <a href="https://www.linkedin.com/in/francisco-davico-4ba32572/" target="_blank" >Lormor</a> para <a href="https://www.undergames.net" target="_blank">© UnderGames</a></p>
+        </div>`;
+    } 
+});
