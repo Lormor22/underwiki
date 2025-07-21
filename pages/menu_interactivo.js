@@ -14,13 +14,13 @@ function mostrar_humanos(){
     nuevo_contenido.innerHTML= `
     <div class="menu_razas">
         <div>
-            <a href="../clases/gladiator.html">
+            <a href="../clases/Gladiator.html">
                 <div class="opciones_razas">
                     <img src="../../img/warrior/gladi/skill0001_Triple_Slash.webp" alt="gladi">
                     <p class="test">Gladiator</p>           
                 </div>
             </a>
-            <a href="../clases/duelist.html">
+            <a href="../clases/Duelist.html">
                 <div class="opciones_razas">
                     <img src="../../img/warrior/gladi/skill0345_Sonic_Rage.webp" alt="duelist">
                     <p class="test">Duelist</p>                
@@ -28,13 +28,13 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../clases/warlord.html">
+            <a href="../clases/Warlord.html">
                 <div class="opciones_razas">
                     <img src="../../img/warrior/pole/skill0048_Thunder_Storm.webp" alt="warlord">
                     <p class="test">Warlord</p>
                 </div>
             </a>
-            <a href="../clases/dreadnought.html">
+            <a href="../clases/Dreadnought.html">
                 <div class="opciones_razas">
                     <img src="../../img/warrior/pole/skill0361_Shock_Blast.webp" alt="Dreadnought">
                     <p class="test">Dreadnought</p>       
@@ -42,7 +42,7 @@ function mostrar_humanos(){
             </a>
         </div>
         <div>
-            <a href="../clases/paladin.html">
+            <a href="../clases/Paladin.html">
                 <div class="opciones_razas">
                     <img src="../../img/tank/pala/skill0406_Angelic_Icon.webp" alt="paladin">
                     <p class="test">Paladin</p>
@@ -488,24 +488,32 @@ function mostrar_enanos(){
     nuevo_contenido.innerHTML= `
     <div class="menu_razas">
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/enano/skill0254_spoil.webp" alt="Bounty Hunter">
-                <p class="test">Bounty Hunter</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/enano/skill0348_Spoil_Crush.webp" alt="Fortune Seeker">
-                <p class="test">Fortune Seeker</p>                
-            </div>
+            <a href="../clases/Bounty_Hunter.html">
+                <div class="opciones_razas">
+                    <img src="../../img/enano/skill0254_spoil.webp" alt="Bounty Hunter">
+                    <p class="test">Bounty Hunter</p>           
+                </div>
+            </a>
+            <a href="../clases/Fortune_Seeker.html">
+                <div class="opciones_razas">
+                    <img src="../../img/enano/skill0348_Spoil_Crush.webp" alt="Fortune Seeker">
+                    <p class="test">Fortune Seeker</p>                
+                </div>
+            </a>
         </div>
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/enano/skill0025_Summon_Mechanic_Golem.webp" alt="Warsmith">
-                <p class="test">Warsmith</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/enano/skill0778_Golem_Armor.webp" alt="Maestro">
-                <p class="test">Maestro</p>       
-            </div>
+            <a href="../clases/Warsmith.html">
+                <div class="opciones_razas">
+                    <img src="../../img/enano/skill0025_Summon_Mechanic_Golem.webp" alt="Warsmith">
+                    <p class="test">Warsmith</p>
+                </div>
+            </a>
+            <a href="../clases/Maestro.html">
+                <div class="opciones_razas">
+                    <img src="../../img/enano/skill0778_Golem_Armor.webp" alt="Maestro">
+                    <p class="test">Maestro</p>       
+                </div>
+            </a>
         </div>
     </div>
     `
@@ -519,55 +527,60 @@ function mostrar_kamaeles(){
     nuevo_contenido.innerHTML= `
     <div class="menu_razas">
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill0501_Violent_Temper.webp" alt="Berserker">
-                <p class="test">Berserker</p>           
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill0793_Rush_Impact.webp" alt="Doombringer">
-                <p class="test">Doombringer</p>                
-            </div>
+            <a href="../clases/Berserker.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill0501_Violent_Temper.webp" alt="Berserker">
+                    <p class="test">Berserker</p>           
+                </div>
+            </a>
+            <a href="../clases/Doombringer.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill0793_Rush_Impact.webp" alt="Doombringer">
+                    <p class="test">Doombringer</p>                
+                </div>
+            </a>
         </div>
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill1440_Steal_Divinity.webp" alt="Male Soulbreaker">
-                <p class="test">Male Soulbreaker</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill0791_Lightning_Shock.webp" alt="Male Soulhound">
-                <p class="test">Male Soulhound</p>       
-            </div>
+            <a href="../clases/Soulbreaker.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill1440_Steal_Divinity.webp" alt="Soulbreaker">
+                    <p class="test">Soulbreaker</p>
+                </div>
+            </a>
+            <a href="../clases/Soulhound.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill0791_Lightning_Shock.webp" alt="Soulhound">
+                    <p class="test">Soulhound</p>       
+                </div>
+            </a>
         </div>
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill1476_Appetite_for_Destruction.webp" alt="Inspector">
-                <p class="test">Inspector</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill0538_Final_Form.webp" alt="Judicator">
-                <p class="test">Judicator</p>
-            </div>
+            <a href="../clases/Inspector.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill1476_Appetite_for_Destruction.webp" alt="Inspector">
+                    <p class="test">Inspector</p>
+                </div>
+            </a>
+            <a href="../clases/Judicator.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill0538_Final_Form.webp" alt="Judicator">
+                    <p class="test">Judicator</p>
+                </div>
+            </a>
         </div>
         <div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill1440_Steal_Divinity.webp" alt="Female Soulbreaker">
-                <p class="test">Female Soulbreaker</p>
-            </div>
-            
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill0791_Lightning_Shock.webp" alt="Female Soulhound">
-                <p class="test">Female Soulhound</p>
-            </div>
-        </div>
-        <div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill0522_Real_Target.webp" alt="Arbalester">
-                <p class="test">Arbalester</p>
-            </div>
-            <div class="opciones_razas">
-                <img src="../../img/kamael/skill1470_Prahnah.webp" alt="Trikster">
-                <p class="test">Trikster</p>
-            </div>
+            <a href="../clases/Arbalester.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill0522_Real_Target.webp" alt="Arbalester">
+                    <p class="test">Arbalester</p>
+                </div>
+            </a>
+            <a href="../clases/Trikster.html">
+                <div class="opciones_razas">
+                    <img src="../../img/kamael/skill1470_Prahnah.webp" alt="Trikster">
+                    <p class="test">Trikster</p>
+                </div>
+            </a>
         </div>
     </div>
     `

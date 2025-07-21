@@ -253,6 +253,19 @@ body{
 }
 
 /* -------------------------------------------------------------------------- Tabla skilles */
+.forgos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgos img{
+    width: 38px;
+}
+.img_sobre_forgo{
+    position: absolute;
+}
+
+
 .contenedor_pestanias{
     display: flex; 
     align-items: center; 
