@@ -214,8 +214,6 @@ footer{
 
 body{
     background-color: #1b1b1b;
-    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
-
 }
 .fondo_index{
     background: url(../img/fondowebbyn_.webp) no-repeat center fixed;
@@ -256,34 +254,54 @@ body{
 /* -------------------------------------------------------------------------- Tabla skilles */
 .forgos{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    text-align: center;
+    width: 10%;
+
 }
 .forgos img{
     width: 38px;
 }
-.img_sobre_forgo{
-    position: absolute;
-}
-.borde_skill_dark{
+
+.dark, .holy, .fire, .water, .earth, .wind, .forgo_borde{
     position: relative;
     z-index: 0;
 }
 
-.borde_skill_dark::before {
+.dark::before , .holy::before, .fire::before, .water::before, .earth::before, .wind::before, .forgo_borde::before{
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     width: 38px;
     height: 38px;
-    background-image: url("../img/etc/iconos_web/toggle_unholy_panel.png");
     background-size: cover;
     background-position: center;
-    pointer-events: none; /* para que no bloquee clicks */
-    z-index: 1; /* adelante del contenido */
+    pointer-events: none;
+    z-index: 1;
 }
-
+.dark::before{
+        background-image: url("../img/etc/iconos_web/toggle_unholy_panel.png");
+}
+.holy::before{
+        background-image: url("../img/etc/iconos_web/toggle_holy_panel.png");
+}
+.fire::before{
+        background-image: url("../img/etc/iconos_web/toggle_fire_panel.png");
+}
+.water::before{
+        background-image: url("../img/etc/iconos_web/toggle_water_panel.png");
+}
+.earth::before{
+        background-image: url("../img/etc/iconos_web/toggle_earth_panel.png");
+}
+.wind::before{
+        background-image: url("../img/etc/iconos_web/toggle_wind_panel.png");
+}
+.forgo_borde::before{
+    background-image: url("../img/etc/iconos_web/bm2018_book_panel.png");
+}
 
 .contenedor_pestanias{
     display: flex; 
@@ -430,21 +448,6 @@ body{
 }
 
 
-/* -------------------------------------------------------------------------- mostrar / ocultar tabla */
-
-.transicion {
-    max-height: 2000px;
-    overflow: hidden;
-    transition: max-height 0.3s ease;
-}
-
-.esconder {
-    max-height: 0;
-}
-.rotado{
-    transform: rotate(180deg);
-}
-
 /* -------------------------------------------------------------------------- skills */
 .contenido_y_video{
     display: flex;
@@ -483,8 +486,8 @@ td img{
 }
 /* -------------------------------------------------------------------------- Árbol Clases */
 .class_tree h1{
-    margin: 5% 0 2% 5%;
-    font-size: 4rem;
+    margin: 2% 0 2% 2%;
+    font-size: 3rem;
     font-family: "lineage_font";
     color: rgb(209, 208, 208);
 }
@@ -496,21 +499,27 @@ td img{
 .contenedor_f_w div{
     width: 50%;
     text-align: center;
-    font-size: 2rem;
-    font-family: "lineage_font";
+    font-size: 1rem;
+    font-family: "onest";
     color: rgb(209, 208, 208);
-    margin-top: 5%;
+    margin-top: 1%;
 }
+
 .contenedor_clases_image{
     display: flex;
     justify-content: center;
     align-items: center;
+    scroll-margin-top: 100px;
 }
 
 .img_arbol_clases img{
     width: 15vw;
     height: auto;
     margin: 0 100px 0 100px;
+    background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, transparent 50%);
+    /* background: linear-gradient(160deg, #1e1f2f, #3b4455); */
+    /* background: linear-gradient(to top, rgba(255,255,255,0.03), rgba(255,255,255,0));
+    backdrop-filter: blur(2px); */
 }
 .nombre_raza{
     font-family: "lineage_font";
@@ -521,9 +530,12 @@ td img{
     top: -90px;
     z-index: 0;
     text-shadow: 4px 4px 4px black;
-    -webkit-text-stroke: 0.15px black;
+    text-shadow: 
+        -0.15px -0.15px 0 black,
+        0.15px -0.15px 0 black,
+        -0.15px  0.15px 0 black,
+        0.15px  0.15px 0 black;
 }
-
 .centro_lineas{
     display: flex; 
     align-items: center;
@@ -576,17 +588,52 @@ td img{
     background-color: aliceblue;
 }
 
+.img_fondo_tree{
+    position: relative;
+    z-index: 0;
+}
+.img_fondo_tree::before {
+    content: "";
+    position: fixed;
+    top: 4%;
+    left: -40px;
+    background-image: url(../img/etc/iconos_web/z_fontdeco_resultado.png);
+    width: 100%;
+    height: 100%;
+    background-size: 30vw;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: center; */
+    opacity: 0.3;
+    z-index: -1;
+    pointer-events: none; /* para que no bloquee clics */
+}
 
-
-
-
-
-
-
-
-
-
-
+.menu_flotante_tree{
+    display: inline-block;
+    background-color: rgb(15, 15, 15);
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    padding: 10px;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    margin-left: 20px;
+    border-radius: 3px;
+    text-align: center;
+    z-index: 1000;
+}
+.menu_flotante_tree div{
+    padding: 7px;
+    margin: 7px 3px 7px 3px;
+    border-color: antiquewhite;
+    font-family: "onest";
+    background-color: rgb(36, 36, 36);
+    border-radius: 3px;
+}
+.menu_flotante_tree div:hover{
+    background-color: rgb(85, 85, 85);
+}
 
 
 
