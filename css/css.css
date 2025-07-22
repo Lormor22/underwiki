@@ -29,6 +29,7 @@ a {
     src: url(../fonts/Roboto-Regular.ttf);
 }
 /*-------------------------------------------------------------------------- Genral */
+
 .letra_chica{
     font-size: 0.75rem ;
 }
@@ -264,6 +265,24 @@ body{
 .img_sobre_forgo{
     position: absolute;
 }
+.borde_skill_dark{
+    position: relative;
+    z-index: 0;
+}
+
+.borde_skill_dark::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 38px;
+    height: 38px;
+    background-image: url("../img/etc/iconos_web/toggle_unholy_panel.png");
+    background-size: cover;
+    background-position: center;
+    pointer-events: none; /* para que no bloquee clicks */
+    z-index: 1; /* adelante del contenido */
+}
 
 
 .contenedor_pestanias{
@@ -456,12 +475,120 @@ td img{
     width: 80%;
     text-align: center;
 }
-.tr_color{
+/* .tr_color{
     background-color: antiquewhite;
-}
+} */
 .padding5{
     padding: 5px;
 }
+/* -------------------------------------------------------------------------- Árbol Clases */
+.class_tree h1{
+    margin: 5% 0 2% 5%;
+    font-size: 4rem;
+    font-family: "lineage_font";
+    color: rgb(209, 208, 208);
+}
+.contenedor_f_w{
+    width: 100%;
+    display: flex;
+    margin: auto;
+}
+.contenedor_f_w div{
+    width: 50%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "lineage_font";
+    color: rgb(209, 208, 208);
+    margin-top: 5%;
+}
+.contenedor_clases_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_arbol_clases img{
+    width: 15vw;
+    height: auto;
+    margin: 0 100px 0 100px;
+}
+.nombre_raza{
+    font-family: "lineage_font";
+    color: rgb(175, 175, 175);
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    top: -90px;
+    z-index: 0;
+    text-shadow: 4px 4px 4px black;
+    -webkit-text-stroke: 0.15px black;
+}
+
+.centro_lineas{
+    display: flex; 
+    align-items: center;
+    padding: 10px 0 10px 0;
+}
+.centro_lineas div{
+    width: 100%;
+    white-space: nowrap; 
+}
+.centro_lineas a{
+    font-family: "Onest";
+    color: aliceblue;
+    margin: 0 10px 0 10px;
+}
+.linea_horizontal{
+    background-color: aliceblue; 
+    height: 1px; 
+    flex-grow: 1;
+    min-width: 30px;
+}
+.linea_vertical_lado_izquierdo_2, .linea_vertical_lado_derecho_2, .linea_vertical_lado_izquierdo_3, .linea_vertical_lado_derecho_3{
+    position: relative;
+}
+.linea_vertical_lado_izquierdo_2::after {
+    content: "";
+    position: absolute;
+    top: 25%;         /* Inicio linea */
+    right: 0;         /* Lado donde esta la linea */
+    width: 2px;      
+    height: 50%;     
+    background-color: aliceblue; 
+}
+.linea_vertical_lado_derecho_2::after {
+    content: "";
+    position: absolute;
+    top: 25%;         /* empieza al 25% del alto */
+    left: 0;         /* pegado al borde derecho */
+    width: 2px;       
+    height: 50%;    
+    background-color: aliceblue; 
+}
+
+.linea_vertical_lado_derecho_3::after {
+    content: "";
+    position: absolute;
+    top: 16.66%;         /* empieza al 25% del alto */
+    left: 0;         /* pegado al borde derecho */
+    width: 2px;       
+    height: 66%; 
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* -------------------------------------------------------------------------- Clases */
 .titulo_img{
