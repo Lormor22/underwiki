@@ -486,7 +486,7 @@ td img{
 }
 /* -------------------------------------------------------------------------- Árbol Clases */
 .class_tree h1{
-    margin: 2% 0 2% 2%;
+    margin: 1% 0 1% 2%;
     font-size: 3rem;
     font-family: "lineage_font";
     color: rgb(209, 208, 208);
@@ -502,7 +502,6 @@ td img{
     font-size: 1rem;
     font-family: "onest";
     color: rgb(209, 208, 208);
-    margin-top: 1%;
 }
 
 .contenedor_clases_image{
@@ -541,8 +540,10 @@ td img{
     align-items: center;
     padding: 10px 0 10px 0;
 }
-.centro_lineas div{
+.cien_porciento{
     width: 100%;
+}
+.centro_lineas div{
     white-space: nowrap; 
 }
 .centro_lineas a{
@@ -555,6 +556,17 @@ td img{
     height: 1px; 
     flex-grow: 1;
     min-width: 30px;
+}
+.width_30{
+    flex: 0 0 30px !important
+}
+.img_derecha_tree{
+    width: 25px;
+    margin: 0 -5px 0 5px;
+}
+.img_izquierda_tree{
+    width: 25px;
+    margin: 0 5px 0 -5px;
 }
 .linea_vertical_lado_izquierdo_2, .linea_vertical_lado_derecho_2, .linea_vertical_lado_izquierdo_3, .linea_vertical_lado_derecho_3{
     position: relative;

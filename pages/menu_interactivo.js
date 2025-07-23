@@ -716,3 +716,32 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>`;
     } 
 });
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const scrollContainer = document.querySelector('.class_tree');
+    if (!scrollContainer) return; 
+
+
+    const links = document.querySelectorAll('.menu_flotante_tree a[href^="#"]');
+
+    links.forEach(link => {
+        link.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1); 
+        const targetElement = document.getElementById(targetId);
+
+        if (!targetElement) return;
+
+        const offset = 100; 
+        const topPos = targetElement.offsetTop - offset;
+
+        scrollContainer.scrollTo({
+            top: topPos,
+            behavior: 'smooth'
+        });
+        });
+    });
+});
