@@ -196,12 +196,16 @@ footer{
     -webkit-user-select: none; 
     -moz-user-select: none;    
     -ms-user-select: none;
+    border-radius: 5px;
 }
 #human, #elf, #delfdark, #elf, #orc, #dwarf, #kamael{
     width: 50px;
 }
 .opciones_razas:hover{
-    box-shadow: 0 0 10px 0 rgba(252, 252, 252, 0.6);
+
+    box-shadow: 
+    inset 0 0 7px rgba(252, 252, 252, 0.6), /* interna */
+    0 0 9px rgba(252, 252, 252, 0.6);   
 }
 .opciones_razas img{
     width: 38px;
@@ -227,6 +231,7 @@ body{
     margin: auto;
     padding: 1rem;
     color: rgb(209, 208, 208);
+    min-height: 600px;
 }
 
 .bloque_centrado{
@@ -364,7 +369,7 @@ body{
 }
 .row_skill_tabla2{
     display: flex;
-    padding: 16px;
+    padding: 7px 16px 7px 16px;
     align-items: center;
     background-color: rgb(15, 15, 15);
     font-family: "Onest";
@@ -723,8 +728,8 @@ p{
         translateZ(550px);
 }
 .banner .slider .item img{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     object-fit: cover;
 }
 .banner .content .model{
@@ -737,11 +742,13 @@ p{
     background-size: auto 130%;
     background-repeat: no-repeat;
     background-position: top center;
-    z-index: 1;
+    z-index: -1;
 }
 
 .Underwiki{
-    position: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: end;
     bottom: 0;
     left: 0;
     margin: 0;
@@ -759,6 +766,13 @@ p{
 .segundoh1{
     color: white;
 }
+
+
+
+
+
+
+
 
 
 
