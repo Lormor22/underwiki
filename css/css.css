@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     text-rendering: optimizeLegibility;
-    transition: 0.3s;
+    transition: all 0.5s ease;
 }
 html {
     scroll-behavior: smooth;
@@ -54,6 +54,34 @@ a {
     margin-top: 5rem;
     font-size: 13px
 }
+/*-------------------------------------------------------------------------- Cabecera temporal */
+.cabe_temp {
+    gap: 10px;
+    display: flex;
+}
+.cabe_temp a{
+    background-color: rgb(15, 15, 15);
+    padding: 10px 15px 10px 15px;
+    height: 100%;
+    color: white;
+    font-size: 15px;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap; 
+    border-radius: 5px;
+}
+.cabe_temp img{
+    width: 25px;
+}
+.cabe_temp a:hover{
+    background-color: rgb(56, 56, 56);
+    box-shadow: 0 0 10px 0 rgba(94, 81, 55, 0.6);
+
+}
 /*-------------------------------------------------------------------------- Menu cabecera */
 header{
     background-color: rgb(15, 15, 15);
@@ -74,7 +102,6 @@ ul, ol {
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
     
-
 }
 .nav > li{
     float: left;
@@ -84,6 +111,7 @@ ul, ol {
 .mouse_arriba a{
     border-radius: 3px;
     margin: 0 5px 0 5px;
+    white-space: nowrap; 
 }
 .mouse_arriba a:hover{
     background-color: rgb(56, 56, 56);
@@ -231,7 +259,7 @@ body{
     margin: auto;
     padding: 1rem;
     color: rgb(209, 208, 208);
-    min-height: 600px;
+    min-height: 575px;
 }
 
 .bloque_centrado{
@@ -731,6 +759,9 @@ p{
     width: 80%;
     height: 80%;
     object-fit: cover;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
 }
 .banner .content .model{
     background-image: url(../img/test/gladiador.webp);
@@ -746,14 +777,14 @@ p{
 }
 
 .Underwiki{
-    height: 100vh;
+    height: 95vh;
     display: flex;
     align-items: end;
     bottom: 0;
     left: 0;
     margin: 0;
     padding: 10px;
-    font-size: 7rem;
+    font-size: 5vw;
     z-index: 1;
     font-family: "Onest";
     display: flex;
@@ -768,11 +799,58 @@ p{
 }
 
 
+.contenedor_cosas_nuevas{
+    font-family: "Onest";
+    width: 26%;
+    background-color: rgba(15, 15, 15 , 0.5);
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+    padding: 30px 3px 30px 3px;
+    height: 50%;
+    width: 25%;
+}
+.contenedor_cosas_nuevas h2{
+    font-size: 1.5vw;
+    color: aliceblue;
+}
+.contenedor_cosas_nuevas p{
+    width: 80%;
+    color: rgb(204, 210, 214);
+    font-size: 1vw;
+}
+.contenedor_cosas_nuevas img{
+    width: 80%;
+    -webkit-mask-image: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+    mask-image: radial-gradient(circle, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+}
+.linea_separadora{
+    width: 50%;
+    background-color: rgba(202, 202, 202, 0.4);
+    height: 2px;
+    box-shadow: 0 0 10px 0 (202, 202, 202, 0.4);
+}
+.letra_clave{
+    color: rgb(194, 173, 56);
+}
 
-
-
-
-
+.contenedor_contenedores{
+    margin: 0 5% 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+}
 
 
 
