@@ -230,7 +230,7 @@ footer{
     width: 50px;
 }
 .opciones_razas:hover{
-
+    background-color: rgb(44, 44, 44);
     box-shadow: 
     inset 0 0 7px rgba(252, 252, 252, 0.6), /* interna */
     0 0 9px rgba(252, 252, 252, 0.6);   
@@ -291,6 +291,7 @@ body{
     align-items: center;
     text-align: center;
     width: 10%;
+    margin: 3px 0 3px 0;
 
 }
 .forgos img{
