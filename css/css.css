@@ -524,11 +524,13 @@ td img{
     font-size: 3rem;
     font-family: "lineage_font";
     color: rgb(209, 208, 208);
+    text-shadow: 4px 4px 4px black;
 }
 .contenedor_f_w{
     width: 100%;
     display: flex;
     margin: auto;
+    text-shadow: 4px 4px 4px black;
 }
 .contenedor_f_w div{
     width: 50%;
@@ -586,6 +588,7 @@ td img{
     color: aliceblue;
     margin: 0 10px 0 10px;
     font-size: 1vw;
+    text-shadow: 4px 4px 4px black;
 }
 .linea_horizontal{
     background-color: aliceblue; 
@@ -688,7 +691,7 @@ td img{
     background-color: rgb(85, 85, 85);
 }
 .menu_flotante_tree2 div div:hover{
-        background-color: rgb(44, 44, 44);
+    background-color: rgb(44, 44, 44);
     box-shadow: 
     inset 0 0 7px rgba(252, 252, 252, 0.6), /* interna */
     0 0 9px rgba(252, 252, 252, 0.6);   
@@ -699,6 +702,7 @@ td img{
 }
 .menu_flotante_tree2{
     display: inline-block;
+    background-color: rgb(15, 15, 15);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
     color: aliceblue;
     padding: 2px;
@@ -719,28 +723,50 @@ td img{
     flex-direction: column;
 }
 
-#elf_tree{
-    background-color: rgb(48, 63, 48);
+#human_tree::before, #dwarf_tree::before, #elf_tree::before, #d_elf_tree::before, #orc_tree::before, #kamael_tree::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    filter: blur(1px);
+    z-index: -1;
 }
-#d_elf_tree{
-    background-color: rgb(48, 53, 63);
+#human_tree, #elf_tree, #d_elf_tree, #orc_tree, #dwarf_tree, #kamael_tree{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
 }
-#orc_tree{
-    background-color: rgb(48, 63, 54);
+#human_tree::before{
+    background-image: url(../img/fondos/talng_island.webp);
 }
-#dwarf_tree{
-    background-color: rgb(63, 54, 48);
+#elf_tree::before{
+    background-image: url(../img/fondos/elven_village.webp);
+        filter: brightness(40%) blur(2px);
 }
-#kamael_tree{
-    background-color: rgb(63, 48, 63);
+#d_elf_tree::before{
+        background-image: url(../img/fondos/dark_elf_village.webp);
+}
+#orc_tree::before{
+    background-image: url(../img/fondos/orc_back.webp);
+}
+#dwarf_tree::before{
+    background-image: url(../img/fondos/dwarf_village.webp);
+}
+#kamael_tree::before{
+    background-image: url(../img/fondos/kamael_village.webp);
 }
 
 /* -------------------------------------------------------------------------- Clases */
 .titulo_img{
     display: flex;
     align-items: center;
-}
+    height: 18vh;
 
+}
 .img_presentacion{
     width: 4rem;
     height: 4rem;
@@ -809,6 +835,14 @@ p{
         translateZ(550px);
 }
 .banner .slider .item img{
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    user-select: none;
+    pointer-events: none;
+    -webkit-user-drag: none;
+}
+.banner .slider .item video{
     width: 80%;
     height: 80%;
     object-fit: cover;
@@ -949,13 +983,11 @@ p{
     gap: 1vw;
 }
 
-
-
-
-
-
-
-
+}
+@media (max-height: 600px) {
+.menu_flotante_tree{
+    left: 30%;
 }
 
+}
 
