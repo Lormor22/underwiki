@@ -526,18 +526,13 @@ td img{
     color: rgb(209, 208, 208);
     text-shadow: 4px 4px 4px black;
 }
-.contenedor_f_w{
-    width: 100%;
+.titulo_tree{
     display: flex;
-    margin: auto;
-    text-shadow: 4px 4px 4px black;
 }
-.contenedor_f_w div{
-    width: 50%;
-    text-align: center;
-    font-size: 1rem;
-    font-family: "onest";
-    color: rgb(209, 208, 208);
+.titulo_tree img{
+    width: 64px; 
+    height: 64px; 
+    margin: 1% 0 1% 1%;
 }
 
 .contenedor_clases_image{
@@ -550,7 +545,7 @@ td img{
 .img_arbol_clases img{
     width: 15vw;
     height: auto;
-    margin: 0 3vw 0  3vw;
+    margin: 0 2vw 0  2vw;
     background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, transparent 50%);
     /* background: linear-gradient(160deg, #1e1f2f, #3b4455); */
     /* background: linear-gradient(to top, rgba(255,255,255,0.03), rgba(255,255,255,0));
@@ -575,7 +570,11 @@ td img{
     display: flex; 
     align-items: center;
     padding: 10px 0 10px 0;
-    
+}
+.contenedor_ramas{
+    display: flex; 
+    align-items: center;
+    padding: 10px 0 10px 0;
 }
 .cien_porciento{
     width: 100%;
@@ -593,7 +592,7 @@ td img{
 .linea_horizontal{
     background-color: aliceblue; 
     height: 1px; 
-    flex-grow: 1;
+    flex: 1;
     min-width: 30px;
 }
 .width_30{
@@ -669,7 +668,7 @@ td img{
     position: fixed;
     top: 30%;
     left: 0;
-    margin-left: 20px;
+    margin-left: 7px;
     border-radius: 3px;
     text-align: center;
     z-index: 1000;
@@ -745,7 +744,7 @@ td img{
 }
 #elf_tree::before{
     background-image: url(../img/fondos/elven_village.webp);
-        filter: brightness(40%) blur(2px);
+        filter: brightness(40%) blur(1px);
 }
 #d_elf_tree::before{
         background-image: url(../img/fondos/dark_elf_village.webp);
@@ -962,7 +961,7 @@ p{
     width: 3vw;
 }
 /* -------------------------------------------------------------------------- Media respon */
-@media (max-width: 1920px) {
+@media (max-width: 1919px) {
 .menu_flotante_tree, .menu_flotante_tree2{
     display: flex;
     flex-direction: row;
@@ -988,6 +987,47 @@ p{
 .menu_flotante_tree{
     left: 30%;
 }
-
+.linea_horizontal{
+    width: 0;
+    height: 0;
+    min-width: 0;
+}
+.width_30{
+    width: 0;
+}
+.clase1{
+    display: none;
+}
+.contenedor_ramas{
+    padding: 3px 0 3px 0;
+}
+.class_tree{
+    font-size: 1rem;
+}
+.titulo_tree img{
+    width: 18px; 
+    height: 18px; 
+    margin: 1% 0 1% 10%;
+}
+.img_derecha_tree{
+    width: 18px;
+    margin: 0 -5px 0 5px;
+}
+.img_izquierda_tree{
+    width: 18px;
+    margin: 0 5px 0 -5px;
+}
+.centro_lineas{
+    padding: 5px 0 5px 0;
+}
+.menu_flotante_tree{
+    padding: 0;
+}
+.menu_flotante_tree2{
+    padding: 0;
+}
+.menu_flotante_tree div, .menu_flotante_tree2 div{
+    margin: 1px;
+}
 }
 
