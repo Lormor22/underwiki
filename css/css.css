@@ -195,7 +195,7 @@ footer{
     gap: 10px;
 }
 .tamanio_icono{
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 /*-------------------------------------------------------------------------- Menu razas */
@@ -519,8 +519,8 @@ td img{
     padding: 5px;
 }
 /* -------------------------------------------------------------------------- Árbol Clases */
-.class_tree h1{
-    margin: 1% 0 1% 2%;
+.class_tree{
+    margin: 1% 0 1% 1%;
     font-size: 3rem;
     font-family: "lineage_font";
     color: rgb(209, 208, 208);
@@ -542,13 +542,13 @@ td img{
     display: flex;
     justify-content: center;
     align-items: center;
-    scroll-margin-top: 100px;
 }
+
 
 .img_arbol_clases img{
     width: 15vw;
     height: auto;
-    margin: 0 100px 0 100px;
+    margin: 0 3vw 0  3vw;
     background: radial-gradient(circle at center, rgba(255,255,255,0.15) 0%, transparent 50%);
     /* background: linear-gradient(160deg, #1e1f2f, #3b4455); */
     /* background: linear-gradient(to top, rgba(255,255,255,0.03), rgba(255,255,255,0));
@@ -558,7 +558,7 @@ td img{
     font-family: "lineage_font";
     color: rgb(175, 175, 175);
     position: relative;
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
     top: -90px;
     z-index: 0;
@@ -573,6 +573,7 @@ td img{
     display: flex; 
     align-items: center;
     padding: 10px 0 10px 0;
+    
 }
 .cien_porciento{
     width: 100%;
@@ -584,6 +585,7 @@ td img{
     font-family: "Onest";
     color: aliceblue;
     margin: 0 10px 0 10px;
+    font-size: 1vw;
 }
 .linea_horizontal{
     background-color: aliceblue; 
@@ -668,20 +670,70 @@ td img{
     border-radius: 3px;
     text-align: center;
     z-index: 1000;
+    width: 5vw;
+    font-size: 1vw;
+    height: fit-content;
 }
-.menu_flotante_tree div{
+.menu_flotante_tree div, .menu_flotante_tree2 div{
     padding: 7px;
     margin: 7px 3px 7px 3px;
     border-color: antiquewhite;
     font-family: "onest";
     background-color: rgb(36, 36, 36);
     border-radius: 3px;
+    white-space: nowrap; 
+
 }
 .menu_flotante_tree div:hover{
     background-color: rgb(85, 85, 85);
 }
+.menu_flotante_tree2 div div:hover{
+        background-color: rgb(44, 44, 44);
+    box-shadow: 
+    inset 0 0 7px rgba(252, 252, 252, 0.6), /* interna */
+    0 0 9px rgba(252, 252, 252, 0.6);   
+}
+.starter_tamanio_clases{
+    height: 100vh; 
+    scroll-snap-align: start;
+}
+.menu_flotante_tree2{
+    display: inline-block;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.6);
+    color: aliceblue;
+    padding: 2px;
+    position: fixed;
+    bottom: 1%;
+    right: 0;
+    margin-right: 20px;
+    border-radius: 3px;
+    text-align: center;
+    z-index: 1000;
+    width: fit-content ;
+    height: fit-content;
+}
+.menu_flotante_tree2 div{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column;
+}
 
-
+#elf_tree{
+    background-color: rgb(48, 63, 48);
+}
+#d_elf_tree{
+    background-color: rgb(48, 53, 63);
+}
+#orc_tree{
+    background-color: rgb(48, 63, 54);
+}
+#dwarf_tree{
+    background-color: rgb(63, 54, 48);
+}
+#kamael_tree{
+    background-color: rgb(63, 48, 63);
+}
 
 /* -------------------------------------------------------------------------- Clases */
 .titulo_img{
@@ -722,7 +774,7 @@ p{
 }
 
 
-/* -------------------------------------------------------------------------- Test */
+/* --------------------------------------(tipito dando vueltas con skilles)---------------------- Test */
 .banner{
     width: 100%;
     height: 100vh;
@@ -856,3 +908,54 @@ p{
 
 
 /* -------------------------------------------------------------------------- Test */
+
+/* -------------------------------------------------------------------------- FAQ */
+
+.contenedor_faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0 30px 0;
+    font-family: "onest";
+    font-size: 0.9vw;
+}
+.contenedor_faq div{
+    width: 60%;
+}
+.contenedor_faq img{
+    width: 3vw;
+}
+/* -------------------------------------------------------------------------- Media respon */
+@media (max-width: 1920px) {
+.menu_flotante_tree, .menu_flotante_tree2{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    padding: 5px;
+}
+.menu_flotante_tree{
+    top: 90%;
+}
+.menu_flotante_tree div{
+    width: 4vw;
+    height: fit-content;
+}
+
+.menu_flotante_tree2 div{
+    flex-direction: row;
+    padding: 0;
+    gap: 1vw;
+}
+
+
+
+
+
+
+
+
+}
+
+

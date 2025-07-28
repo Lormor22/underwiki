@@ -10,7 +10,7 @@ function mostrar_humanos(){
     cerrar_todo();
 
     let nuevo_contenido = document.getElementById("menu_razas_parte2");
-    // <a href="./pages/test.html"></a>
+
     nuevo_contenido.innerHTML= `
     <div class="menu_razas">
         <div>
@@ -632,7 +632,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="../../index.html"><img src="../../img/logo3.webp" alt="Underlogo"></a>
             <div class="cabe_temp"> 
             <a  href="../../pages/class_skills/class_skills.html">Class Skills</a>
-            <a  href="#">FAQ</a>
+            <a  href="../../pages/FAQ/FAQ.html">FAQ</a>
             </div>
         </div>
         <div class="mouse_arriba">
@@ -651,7 +651,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 <a href="https://www.facebook.com/groups/l2undergames" target="_blank"><i  class="ti ti-brand-facebook tamanio_icono" ></i></a> 
             </div>
             <div>
-                <a href="https://discord.com/invite/U7vu5hd3K5" target="_blank"><i class="ti ti-brand-discord tamanio_icono"></i></a>
+                <a href="https://www.undergames.net/discord" target="_blank"><i class="ti ti-brand-discord tamanio_icono"></i></a>
             </div>
             <div>
                     <a href="https://www.youtube.com/@UnderGames.L2" target="_blank"><i class="ti ti-brand-youtube tamanio_icono"></i></a>
@@ -666,7 +666,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    const scrollContainer = document.querySelector('.class_tree');
+    const scrollContainer = document.getElementById('human_tree')
     if (!scrollContainer) return; 
 
 
