@@ -84,10 +84,12 @@ a {
 }
 /*-------------------------------------------------------------------------- Menu cabecera */
 header{
+    position: relative;
     background-color: rgb(15, 15, 15);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 6000;
 }
 ul, ol {
     list-style-type: none; 
@@ -102,6 +104,7 @@ ul, ol {
     font-family: "Onest", sans-serif;
     font-optical-sizing: auto;
     
+    
 }
 .nav > li{
     float: left;
@@ -112,6 +115,7 @@ ul, ol {
     border-radius: 3px;
     margin: 0 5px 0 5px;
     white-space: nowrap; 
+    cursor: pointer;
 }
 .mouse_arriba a:hover{
     background-color: rgb(56, 56, 56);
@@ -269,19 +273,6 @@ body{
 
 .contenido{
     margin: 30px 10% 30px 10% ;
-    
-}
-
-.contenido_comunidad_videos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: end;
-    gap: 3px;
-}
-.contenido_comunidad_videos iframe{
-    width: 100%;
-    height: 160px;
 }
 
 /* -------------------------------------------------------------------------- Tabla skilles */
@@ -314,6 +305,10 @@ body{
     background-position: center;
     pointer-events: none;
     z-index: 1;
+}
+.dark64::before , .holy64::before, .fire64::before, .water64::before, .earth64::before, .wind64::before, .forgo_borde64::before{
+    width: 64px;
+    height: 64px;
 }
 .dark::before{
         background-image: url("../img/etc/iconos_web/toggle_unholy_panel.png");
@@ -348,6 +343,7 @@ body{
     display: flex;
     padding: 8px 16px 8px 16px;
     align-items: center;
+    justify-content: center;
     gap: 10px;
     border-radius: 6px 6px 0 0;
     color: rgb(99, 99, 99);
@@ -364,7 +360,9 @@ body{
     -webkit-user-select: none; 
     -moz-user-select: none;    
     -ms-user-select: none;
-
+}
+.pestania_class img{
+    width: 25px;
 }
 .pestania_class:hover{
     background-color: #3b3b3b;
@@ -374,7 +372,6 @@ body{
     display: flex;
     align-items: center;
     position: relative;
-
 }
 .donde_estoy{
     display: flex;
@@ -398,7 +395,7 @@ body{
 }
 .row_skill_tabla2{
     display: flex;
-    padding: 7px 16px 7px 16px;
+    padding: 5px 16px 5px 16px;
     align-items: center;
     background-color: rgb(15, 15, 15);
     font-family: "Onest";
@@ -483,29 +480,55 @@ body{
 
 
 /* -------------------------------------------------------------------------- skills */
-.contenido_y_video{
+.contenedor_descripcion_video{
     display: flex;
-    padding: 3px;
-    border-radius: 5px;
+    white-space: wrap; 
+    padding: 5px 0 5px 0;
 }
-td p{
-    padding-left: 3px;
-    padding-right: 3px;
+.descripcion_skill{
+    font-family: "onest";
+    padding: 10px;
 }
-td img{
-    padding-left: 3px;
-    padding-right: 3px;
+.contenedor_descripcion_skill{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    min-height: 10vh;;
 }
-.td1{
-    width: 20%;
+.skill_video{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.td2{
-    width: 80%;
+.skill_video iframe{
+    width: 10vw;
+    height: 15vw;
+    padding: 5px;
+    background-color:#1b1b1b;
+    border-radius: 10px;
+}
+/* -------------------- skill info */
+.skill_parte1{
+    width: 25%;
+}
+.skill_parte2{
+    white-space: wrap; 
+}
+.row_skill{
+    display: flex;
+    padding: 7px 16px 7px 16px;
+    align-items: center;
+    background-color: rgb(15, 15, 15);
+    font-family: "Onest";
+    width: 100%;
 }
 
-.padding_tabla  table tbody tr td{
-    padding: 0.25rem 0.25rem;
-}
+
+
+
+
+
 
 /* -------------------------------------------------------------------------- Quests */
 .tamaño_tabla{
@@ -731,7 +754,7 @@ td img{
     bottom: 0;
     background-size: cover;
     background-position: center;
-    filter: blur(1px);
+    filter: blur(4px);
     z-index: -1;
 }
 #human_tree, #elf_tree, #d_elf_tree, #orc_tree, #dwarf_tree, #kamael_tree{
@@ -744,7 +767,7 @@ td img{
 }
 #elf_tree::before{
     background-image: url(../img/fondos/elven_village.webp);
-        filter: brightness(40%) blur(1px);
+    filter: brightness(40%) blur(4px);
 }
 #d_elf_tree::before{
         background-image: url(../img/fondos/dark_elf_village.webp);
@@ -763,8 +786,6 @@ td img{
 .titulo_img{
     display: flex;
     align-items: center;
-    height: 18vh;
-
 }
 .img_presentacion{
     width: 4rem;
@@ -940,7 +961,6 @@ p{
 
 
 
-/* -------------------------------------------------------------------------- Test */
 
 /* -------------------------------------------------------------------------- FAQ */
 

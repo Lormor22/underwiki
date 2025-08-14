@@ -630,10 +630,67 @@ document.addEventListener("DOMContentLoaded", function () {
     if (header_por_java) {
         header_por_java.innerHTML = `<div class="cabecera"> 
             <a href="../../index.html"><img src="../../img/logo3.webp" alt="Underlogo"></a>
-            <div class="cabe_temp"> 
-            <a  href="../../pages/class_skills/class_skills.html">Class Skills</a>
+        <ul class="nav">
+            <li class="mouse_arriba">
+                <a href="../../pages/npcs/npcs.html">NPCs</a>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a>Items</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/items/armors.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Armors</a></li>
+                        <li><a href="../../pages/items/weapons.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Weapons</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a >Skills</a>
+                </div>
+                <ul>
+                    <div class="brillito" >
+                        <li><a href="../../pages/class_skills/class_skills.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Class Skills</a></li>
+                        <li><a href="../../pages/skills/clan_skills.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Clan Skills</a></li>
+                        <li><a href="../../pages/skills/Augmentation.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Augmentation</a></li>
+                        <li><a href="../../pages/skills/Certification.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Certification</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a>Quest</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/quests/class_quest.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Class quest</a></li>
+                        <li><a href="../../pages/quests/7s_p1.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Seven Sings P1</a></li>
+                        <li><a href="../../pages/quests/7s_p2.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Seven Sings p2</a></li>
+                        <li><a href="../../pages/quests/territory_war.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Territory War</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
+                <div class="mouse_arriba">
+                    <a>Otros</a>
+                </div>
+                <ul>
+                    <div class="brillito">
+                        <li><a href="../../pages/otros/element.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Attribute</a></li>
+                        <li><a href="../../pages/otros/baylor.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Baylor</a></li>
+                        <li><a href="../../pages/otros/lucky_pig.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Luky Pig</a></li>
+                        <li><a href="../../pages/otros/dragon_valley.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Dragon Valley</a></li>
+                        <li><a href="../../pages/otros/olympiads.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Olympiads</a></li>
+                        <li><a href="../../pages/otros/soul_crystals.html"><img src="../../img/etc/iconos_web/work.webp" alt="">Soul Crystal</a></li>
+                    </div>
+                </ul>
+            </li>
+            <li>
             <a  href="../../pages/FAQ/FAQ.html">FAQ</a>
-            </div>
+            </li>
+                
+        </ul>
         </div>
         <div class="mouse_arriba">
             <a class="play" href="https://undergames.net/lindvior10/" target="_blank">Play UG</a>
@@ -648,17 +705,17 @@ document.addEventListener("DOMContentLoaded", function () {
     if (header_por_java) {
         header_por_java.innerHTML = `<div class="inconos">
             <div>
-                <a href="https://www.facebook.com/groups/l2undergames" target="_blank"><i  class="ti ti-brand-facebook tamanio_icono" ></i></a> 
+                <a href="https://undergames.net/facebook" target="_blank"><i  class="ti ti-brand-facebook tamanio_icono" ></i></a> 
             </div>
             <div>
                 <a href="https://www.undergames.net/discord" target="_blank"><i class="ti ti-brand-discord tamanio_icono"></i></a>
             </div>
             <div>
-                    <a href="https://www.youtube.com/@UnderGames.L2" target="_blank"><i class="ti ti-brand-youtube tamanio_icono"></i></a>
+                    <a href="https://undergames.net/youtube" target="_blank"><i class="ti ti-brand-youtube tamanio_icono"></i></a>
             </div>
         </div> 
         <div>
-            <p class=" onest_font">Lineage 2 wiki diseñada por <a href="https://www.linkedin.com/in/francisco-davico-4ba32572/" target="_blank" >Lormor</a> para <a href="https://www.undergames.net" target="_blank">© UnderGames</a></p>
+            <p class=" onest_font">Lineage 2 wiki diseñada por Lormor para <a href="https://www.undergames.net" target="_blank">© UnderGames</a></p>
         </div>`;
     } 
 });
